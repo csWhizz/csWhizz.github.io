@@ -1,255 +1,495 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>syntax on csWhizz</title><link>https://cswhizz.github.io/categories/syntax/</link><description>Recent content in syntax on csWhizz</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://cswhizz.github.io/categories/syntax/index.xml" rel="self" type="application/rss+xml"/><item><title>Markdown Syntax Guide</title><link>https://cswhizz.github.io/markdown-syntax-guide/</link><pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate><guid>https://cswhizz.github.io/markdown-syntax-guide/</guid><description>&lt;p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p>
-&lt;h2 id="headings">Headings&lt;/h2>
-&lt;p>The following HTML &lt;code>&amp;lt;h1&amp;gt;&lt;/code>—&lt;code>&amp;lt;h6&amp;gt;&lt;/code> elements represent six levels of section headings. &lt;code>&amp;lt;h1&amp;gt;&lt;/code> is the highest section level while &lt;code>&amp;lt;h6&amp;gt;&lt;/code> is the lowest.&lt;/p>
-&lt;h1 id="h1">H1&lt;/h1>
-&lt;h2 id="h2">H2&lt;/h2>
-&lt;h3 id="h3">H3&lt;/h3>
-&lt;h4 id="h4">H4&lt;/h4>
-&lt;h5 id="h5">H5&lt;/h5>
-&lt;h6 id="h6">H6&lt;/h6>
-&lt;h2 id="paragraph">Paragraph&lt;/h2>
-&lt;p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p>
-&lt;p>Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.&lt;/p>
-&lt;h2 id="blockquotes">Blockquotes&lt;/h2>
-&lt;p>The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a &lt;code>footer&lt;/code> or &lt;code>cite&lt;/code> element, and optionally with in-line changes such as annotations and abbreviations.&lt;/p>
-&lt;h4 id="blockquote-without-attribution">Blockquote without attribution&lt;/h4>
-&lt;blockquote>
-&lt;p>Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-&lt;strong>Note&lt;/strong> that you can use &lt;em>Markdown syntax&lt;/em> within a blockquote.&lt;/p>
-&lt;/blockquote>
-&lt;h4 id="blockquote-with-attribution">Blockquote with attribution&lt;/h4>
-&lt;blockquote>
-&lt;p>Don&amp;rsquo;t communicate by sharing memory, share memory by communicating.&lt;/p>
-— &lt;cite>Rob Pike&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/cite>&lt;/p>
-&lt;/blockquote>
-&lt;h2 id="tables">Tables&lt;/h2>
-&lt;p>Tables aren&amp;rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Name&lt;/th>
-&lt;th>Age&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Bob&lt;/td>
-&lt;td>27&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Alice&lt;/td>
-&lt;td>23&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h4 id="inline-markdown-within-tables">Inline Markdown within tables&lt;/h4>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Inline   &lt;/th>
-&lt;th>Markdown   &lt;/th>
-&lt;th>In   &lt;/th>
-&lt;th>Table&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;em>italics&lt;/em>&lt;/td>
-&lt;td>&lt;strong>bold&lt;/strong>&lt;/td>
-&lt;td>&lt;del>strikethrough&lt;/del>   &lt;/td>
-&lt;td>&lt;code>code&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="code-blocks">Code Blocks&lt;/h2>
-&lt;h4 id="code-block-with-backticks">Code block with backticks&lt;/h4>
-&lt;pre tabindex="0">&lt;code>html
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>syntax on csWhizz</title>
+    <link>https://cswhizz.github.io/categories/syntax/</link>
+    <description>Recent content in syntax on csWhizz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://cswhizz.github.io/categories/syntax/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <item>
+      <title>Birth of Cryptography 700 BCE</title>
+      <link>https://cswhizz.github.io/birth-of-cryptography-700-bce/</link>
+      <pubDate>Wed, 08 Sep 2021 07:08:00 +0000</pubDate>
+      
+      <guid>https://cswhizz.github.io/birth-of-cryptography-700-bce/</guid>
+      <description>&lt;p&gt;Security is must in modern computing. However, many people don’t know that it was originated thousands of years ago in the Roman Empire. One of the important milestones in the history of computing is the birth of cryptography.&lt;/p&gt;
+&lt;p&gt;Cryptography is an intelligent way of protecting information and communications. It uses codes and secret language, so that only those for whom the information is intended can read and process it. Today we can see many examples of cryptography viz. the End-to-End encryption in WhatsApp chats.&lt;/p&gt;
+&lt;p&gt;According to computer science:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Cryptography refers to secure information and communication techniques derived from mathematical concepts and a set of rule-based calculations called algorithms, to transform messages in ways that are hard to decipher.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;!--adsense--&gt;
+&lt;h3 id=&#34;first-encrypted-message&#34;&gt;First encrypted message&lt;/h3&gt;
+&lt;p&gt;During Roman times, back in 700 BCE Spartan military needed to send messages over long distances. They message had to travel fast, which meant that they couldn&amp;rsquo;t be transported by a large, slow moving battalion. Also the messages needed to be secret, in case caught by the enemy.&lt;/p&gt;
+&lt;p&gt;To protect its messages, the military devised a secure communications system involving two wooden staffs of identical diameter and a strip of parchment. Two parties needing to communicate each would have a single staff. To create a message, the sending party would wrap the parchment around his staff and then write a message across; when the parchment was unwrapped, the message would be scrambled. At the other end, the recipient would wrap the message around his staff, and the message would be legible once again.&lt;/p&gt;
+&lt;p&gt;The scytale is mentioned in the writings of Archilochus, a Greek poet who lived from 680 BCE to 645 BCE. Today, nearly every modern cryptography textbook features a description of the scytale. Although there are examples of cryptography and encipherment from ancient Egypt, Mesopotamia, and Judaea, the scytale is the first example of a cryptographic device—with the  diameter of the staff being akin to the encryption key. (A key is a secret—typically a word, number, or phrase—that controls the encryption algorithm. The key determines how the message is encrypted; for most encryption algorithms, the same key is used to decrypt the encrypted message. Thus, keeping the key secret is critical to message security.)&lt;/p&gt;
+&lt;p&gt;This article is a part of the series &lt;a href=&#34;https://cswhizz.github.io/series/computer-evolution/&#34;&gt;Computer Evolution&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;Source : The Computer Book&lt;/small&gt;&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>The First Computer 2500 BCE</title>
+      <link>https://cswhizz.github.io/the-first-computer-2500-bce/</link>
+      <pubDate>Mon, 06 Sep 2021 22:49:19 +0530</pubDate>
+      
+      <guid>https://cswhizz.github.io/the-first-computer-2500-bce/</guid>
+      <description>&lt;p&gt;The abacus is the first instrument designed for computation. It made easy for people to calculate numbers and measurements. It could perform basic arithmetic operations and was the world&amp;rsquo;s first tabulation machine.&lt;/p&gt;
+&lt;h3 id=&#34;origin&#34;&gt;Origin&lt;/h3&gt;
+&lt;p&gt;The Sumerians of Mesopotamia contributed much in the field of mathematics and are believed to have invented the abacus. The abacus was used in ancient times for measuring weights and distances.&lt;/p&gt;
+&lt;p&gt;The Sumerian device was completely different from today&amp;rsquo;s modern abacus. It was a flat surface most probably a stone tablet, that had parallel lines with counters, such as pebbles to track quantity. Later the bead form of abacus originated in China. This new design was a frame with rods and beads that slide to different positions. This is still in use today.&lt;/p&gt;
+&lt;!--adsense--&gt;
+&lt;h3 id=&#34;what-did-they-use-it-for&#34;&gt;What did they use it for?&lt;/h3&gt;
+&lt;p&gt;The Sumerians had well planned cities, robust economies and trade. There was a serious need for a counting and measuring instrument to transact business and distribute goods. The abacus was used for this purpose.&lt;/p&gt;
+&lt;p&gt;They were the first to use symbols to represent groups of objects to communicate large numbers. They used the &lt;em&gt;sexadecimal system&lt;/em&gt; to represent numbers. We owe to the Sumerians our 60-second minute and 60-minute hour.&lt;/p&gt;
+&lt;p&gt;The word &lt;em&gt;abacus&lt;/em&gt; is derived from the Latin &lt;em&gt;abaculus&lt;/em&gt; which means &amp;ldquo;stone tablet&amp;rdquo;. The abacus was used for measuring weights and distances.&lt;/p&gt;
+&lt;p&gt;This article is a part of the series &lt;a href=&#34;https://cswhizz.github.io/series/computer-evolution/&#34;&gt;Computer Evolution&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;Source : The Computer Book&lt;/small&gt;&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Why there is Need to Re-open Colleges?</title>
+      <link>https://cswhizz.github.io/why-there-is-need-to-re-open-colleges/</link>
+      <pubDate>Tue, 03 Aug 2021 04:30:00 +0000</pubDate>
+      
+      <guid>https://cswhizz.github.io/why-there-is-need-to-re-open-colleges/</guid>
+      <description>&lt;p&gt;The COVID-19 has resulted in schools shut all across the world. Globally, over 1.2 billion children are out of the classroom.&lt;/p&gt;
+&lt;p&gt;As a result, education has changed dramatically, with the distinctive rise of e-learning, whereby teaching is undertaken remotely and on digital platforms.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Here are the Top 5 Reasons Why Colleges should be Re-Opened&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;there-is-lack-of-face-to-face-communication&#34;&gt;There is lack of face-to-face communication&lt;/h3&gt;
+&lt;p&gt;The lack of face-to-face communication combines many of the shortcomings of online learning described above. The lack of face-to-face communication with teachers hinders student feedback, leads to social isolation, and can reduce student pressure. Stress is a disadvantage because it makes it easier for students to drop out. For many people, regular contact with teachers may be unwelcome, but it is an effective way to retain students.&lt;/p&gt;
+&lt;!--adsense--&gt;
+&lt;h3 id=&#34;online-learning-causes-social-isolation&#34;&gt;Online Learning causes social Isolation&lt;/h3&gt;
+&lt;p&gt;The online teaching methods used in education often experience, distance, and lack of interaction among participating students, which will cause many students and teachers who inevitably spend most of their time online to experience signs of social isolation. Because of the lack of interpersonal communication in their lives. Social isolation and lack of communication often lead to various psychological problems, such as increased stress, anxiety and negative thoughts.&lt;/p&gt;
+&lt;h3 id=&#34;online-learning-requires-strong-self-motivation-and-time-management-skills&#34;&gt;Online Learning requires strong self-motivation and time management skills&lt;/h3&gt;
+&lt;p&gt;The lack of self-motivation of students is still one of the main reasons why students do not take online courses. In traditional classrooms, there are many factors that continuously drive students toward their learning goals. Work together so that students will not be distracted while studying.&lt;/p&gt;
+&lt;p&gt;However, in the online learning environment, there are fewer external factors that drive students to perform well. Even if they are not constantly moving towards their learning goals in their learning activities, students participating in online learning courses find that they often need to learn complex materials in a comfortable home environment without the extra pressure that traditional universities usually require. Therefore, online learning is difficult to complete on time. It is difficult for students who lack strong self-motivation and time management skills.&lt;/p&gt;
+&lt;!--adsense--&gt;
+&lt;h3 id=&#34;lack-of-communication-skills&#34;&gt;Lack of Communication skills&lt;/h3&gt;
+&lt;p&gt;Facts have proved that e-learning methods are very effective in improving students’ academic knowledge; however, cultivating students’ communication skills is an area that is often overlooked in online teaching. In an online environment, students may find that they cannot work effectively in a team environment. The neglect of students&#39; communication skills inevitably leads to many graduates who have excellent theoretical knowledge, but they are unable to impart their knowledge to others.&lt;/p&gt;
+&lt;h3 id=&#34;online-education-is-limited-to-theory-there-is-no-practical-knowledge&#34;&gt;Online education is limited to theory, there is no practical knowledge&lt;/h3&gt;
+&lt;p&gt;Although this drawback of online Learning is starting to be addressed and fixed by some of the more innovative online learning platforms, the problem has yet to disappear completely. The problem is that a large portion of E-Learning training providers choose to focus largely (in many cases entirely) on developing theoretical knowledge, rather than practical skills. The reason for this is evident – theoretical lectures are considerably easier to implement in an online learning environment than practical lectures. After all, without face-to-face communication and physical classrooms to use as a workshop, implementing practical projects in an online course requires significantly more prior planning than theoretical training.&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>My Plans for Second Year of Computer Engineering</title>
+      <link>https://cswhizz.github.io/my-plans-for-second-year-of-computer-engineering/</link>
+      <pubDate>Sun, 01 Aug 2021 06:30:00 +0000</pubDate>
+      
+      <guid>https://cswhizz.github.io/my-plans-for-second-year-of-computer-engineering/</guid>
+      <description>&lt;h3 id=&#34;today&#34;&gt;Today&lt;/h3&gt;
+&lt;p&gt;So its August 2021 and today is my Second Semester End Sem exam :) wierd right! In short my &lt;a href=&#34;http://neerajadhav.github.io/how-to-start-your-first-year-computer-science-journey/&#34; title=&#34;First year of computer Engineering&#34;&gt;first year of Computer Engineering&lt;/a&gt; is about to end.&lt;/p&gt;
+&lt;p&gt;If you are someone who don&amp;rsquo;t know what to do in the upcoming year, then you are at the right place. Here are few of my future plans which I will try my best to accomplish.&lt;/p&gt;
+&lt;h3 id=&#34;base&#34;&gt;Base&lt;/h3&gt;
+&lt;p&gt;If you want to be a good programmer, then only thing you should do is&amp;hellip;.Practice coding daily. This will improve your skills and thought process. The fast you are able to find solution of particular problem, the more are your chances of cracking campus selection interviews.&lt;/p&gt;
+&lt;!--adsense--&gt;
+&lt;h3 id=&#34;dont-hurry-to-follow-the-trend&#34;&gt;Don&amp;rsquo;t hurry to follow the trend&lt;/h3&gt;
+&lt;p&gt;The biggest mistake people do is that they start thinking on which language should they learn first. I must say don&amp;rsquo;t hesitate to pick &lt;strong&gt;C/C++&lt;/strong&gt; as your first language in programming.&lt;/p&gt;
+&lt;p&gt;Many people will say &lt;strong&gt;Python&lt;/strong&gt; is the trend, there is much scope in python and so on. If you learn &lt;strong&gt;C/C++&lt;/strong&gt; programming first, then moving on towards any other language will not be a big deal for you. For instance, if you learn a manual transmission car, then you will easily get adapt to automatic car.&lt;/p&gt;
+&lt;p&gt;Keep your understanding and concepts crystal clear, be patient, keep practicing, challenge thyself and you will be a master at programming.&lt;/p&gt;
+&lt;!--adsense--&gt;
+&lt;h3 id=&#34;college-curriculum&#34;&gt;College Curriculum&lt;/h3&gt;
+&lt;p&gt;Depending upon your college syllabus, in each semester you will learn new programming language.
+Here is the list,&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;C Language&lt;/li&gt;
+&lt;li&gt;C++ Programming&lt;/li&gt;
+&lt;li&gt;Data Structure and Algorithms&lt;/li&gt;
+&lt;li&gt;Core Java&lt;/li&gt;
+&lt;li&gt;C#.net&lt;/li&gt;
+&lt;li&gt;HTML, CSS, JavaScript&lt;/li&gt;
+&lt;li&gt;PHP&lt;/li&gt;
+&lt;li&gt;ASP . Net&lt;/li&gt;
+&lt;li&gt;Android Development (added recently from 2017)&lt;/li&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If you want to increase your logical skills then learn Data Structure and Algorithms in very deeply with different languages like C, C++ and Java, it will helps you lot and increase your problem solving skills. &lt;strong&gt;Never miss any lecture or any opportunity to learn DSA&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;side-by-side&#34;&gt;Side by Side&lt;/h3&gt;
+&lt;p&gt;Along with all these, you will have to learn English and aptitude. This will help you to crack campus interviews&#39; first round.&lt;/p&gt;
+&lt;!--adsense--&gt;
+&lt;h3 id=&#34;project-based-learning&#34;&gt;Project Based Learning&lt;/h3&gt;
+&lt;p&gt;Most MNCs are in search of employees who have good practical knowledge.&lt;/p&gt;
+&lt;p&gt;Projects can be one of the most efficient ways to learn as they force you to apply the skills while learning them. This, in fact, aids in retention and increases the usefulness of the skills learned.&lt;/p&gt;
+&lt;p&gt;These projects will teach you a great deal about one concept or another. From learning how to apply Algorithms, to learning how to effectively deal with times, you will be able to showcase your skills in most efficient way.&lt;/p&gt;
+&lt;p&gt;Thank you for reading this far. Comment your views in the comments section. Stay motivated.&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>How to start your First Year Computer Science Journey</title>
+      <link>https://cswhizz.github.io/how-to-start-your-first-year-computer-science-journey/</link>
+      <pubDate>Fri, 30 Jul 2021 18:30:00 +0000</pubDate>
+      
+      <guid>https://cswhizz.github.io/how-to-start-your-first-year-computer-science-journey/</guid>
+      <description>&lt;h3 id=&#34;reality&#34;&gt;Reality&lt;/h3&gt;
+&lt;p&gt;Every student has big dreams in college, but unfortunately, some students give up completely till the second or third year. One of the main reasons is that they don&amp;rsquo;t pay much attention to learning.&lt;/p&gt;
+&lt;p&gt;At the beginning, they either don&amp;rsquo;t know what to do to get into the company they dream of. When students of the same age get good internship opportunities or perform well in competitions, they feel frustrated. The only thing you can do to avoid this feeling is to persevere from the start.&lt;/p&gt;
+&lt;p&gt;University days are the best time in anyone’s life. The first year itself is the best time. Because students make new friends, the more freedom you want, the more freedom you get. Because they are tired of the entrance exam study and now they want to have fun. There is nothing wrong with it. It should be interesting and discovering new things in college life, but it is good to start developing yourself so that this will not become a problem in your career.&lt;/p&gt;
+&lt;p&gt;Always make time for the career you want to pursue. Even if you only spend two or three hours to improve your skills, you will reach a different level within a year.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;This article will tell you what you need. Whether you are a freshman or not, if you are an engineering or computer science student&lt;/strong&gt;&lt;/p&gt;
+&lt;!--adsense--&gt;
+&lt;h3 id=&#34;step-0---brushing-up&#34;&gt;Step 0 - Brushing up&lt;/h3&gt;
+&lt;p&gt;First, increase your typing speed. From now on, you will always be dealing with the computer. If you are not typing fast, you will be at a disadvantage and you will waste a lot of time compared to others. Start doing touch typing, Try to learn keyboard shortcuts, this will save lot of your time.&lt;/p&gt;
+&lt;h4 id=&#34;gpa-vs-skills&#34;&gt;GPA v/s Skills&lt;/h4&gt;
+&lt;p&gt;Next is upskilling yourself. Most students think that only by getting good grades can they find a good job. That is the wrong way of thinking. You have to abide by some standards to sit down and accept the interview, but in the end all you see is how good your skill is. If you are looking for employees or you want to start your own startup, you need skills, not qualifications.&lt;/p&gt;
+&lt;p&gt;But again, this is another big mistake made by some students. If you do not meet the minimum standards, how will you demonstrate your skills? or how will you apply for a higher degree? so grades are also important.&lt;/p&gt;
+&lt;!--adsense--&gt;
+&lt;h3 id=&#34;step-1---plan-for-action&#34;&gt;Step 1 - Plan for Action&lt;/h3&gt;
+&lt;p&gt;Try making your own pathway of learning new skills. For instance if you want to learn web development then plan your first month of the learning process, you can break down like you doing HTML  and CSS in the first two weeks, then JavaScript, etc.&lt;/p&gt;
+&lt;h4 id=&#34;dont-wait-for-others&#34;&gt;Don&amp;rsquo;t wait for others&lt;/h4&gt;
+&lt;p&gt;The students think that they have the data structure and algorithm course in the second year, they will learn it in the second year, so they don&amp;rsquo;t worry about the topic at that time. time.&lt;/p&gt;
+&lt;p&gt;But what you really need to do is, if you have mastered the basics of a language, you have to learn part of the data structure, because this is one of the most important subjects for computer science students, in the interview you need to solve the problems that require a deep understanding of these topics, you need to explain your code, and you will be ask why you chose this data structure. If you did not learn these topics correctly, you will not be able answer any of these questions.&lt;/p&gt;
+&lt;!--adsense--&gt;
+&lt;h3 id=&#34;step-2---work-on-your-communication-and-writing-skills&#34;&gt;Step 2 - Work on Your Communication and Writing Skills&lt;/h3&gt;
+&lt;p&gt;Students do not improve their communication skills and lose the opportunity to be selected for internships or projects. From the first year of university, you should begin to exercise on your communication and writing skills in order to be more confident in interviews and can express yourself correctly. To improve your writing skills, you can start writing your own blog, article or story.&lt;/p&gt;
+&lt;h3 id=&#34;step-3---learn-by-making-projects&#34;&gt;Step 3 - Learn By Making Projects&lt;/h3&gt;
+&lt;p&gt;Projects are a great way to learn anything and add something to your resume. While learning languages ​​or new skills, you should always complete multiple small projects. You will begin to understand the use case correctly, and as you succeed, your ability to solve problems will also improve our own stuff.&lt;/p&gt;
+&lt;p&gt;You also need some good projects to apply for your area of ​​interest to demonstrate your skills. Therefore, once you master the basics, you can start working on some real-time projects that you need. You can also collaborate with other developers or participate in open source projects to understand how git and GitHub works, and how the team handles large projects in the real world.&lt;/p&gt;
+&lt;h3 id=&#34;step-4---dont-try-to-learn-all-at-once&#34;&gt;Step 4 - Don’t Try To Learn All at Once&lt;/h3&gt;
+&lt;p&gt;First, you should focus on a language until you master it correctly. Some freshmen try to learn more and more languages instead of focusing on one language, and end up learning nothing.&lt;/p&gt;
+&lt;p&gt;Remember, if you are proficient in one of these languages, switching to the other language is not that difficult. But if you often try to change the grammar you won&amp;rsquo;t remember anyone, and no one will ask you how many languages ​​you know. In fact, you only need a language to clean up a company&amp;rsquo;s programming cycle. They want to see your problem-solving skills, not your memory skills.&lt;/p&gt;
+&lt;!--adsense--&gt;
+&lt;h3 id=&#34;step-5---certificates-are-not-everything&#34;&gt;Step 5 - Certificates are Not Everything&lt;/h3&gt;
+&lt;p&gt;Many freshmen think certification is very important and try to get more certifications. If you have received a certificate to participate in the course or competition you requested, that&amp;rsquo;s great, but you should not participate in any competition just for certified webinars.&lt;/p&gt;
+&lt;p&gt;You should get involved to gain experience, learn new things or become better. Some students add certification sections to their resumes, but it is always better to complete some good projects for the skills mentioned in your resume than to obtain a certificate of courses in these skills. Even Google believes you don’t need a college degree to get a high paying tech job.&lt;/p&gt;
+&lt;h3 id=&#34;final-words&#34;&gt;Final words&lt;/h3&gt;
+&lt;p&gt;Pursuing career in Computer Science is not that easy, it seems too much burden and too much to learn, but in reality if you enjoy your work along with living every other aspect of life, it will be fun.&lt;/p&gt;
+&lt;p&gt;Along with studies try to give some time to your friends and family, hang out with them, go out for trekking and have fun!&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>https://cswhizz.github.io/markdown-syntax-guide/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://cswhizz.github.io/markdown-syntax-guide/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
+&lt;h2 id=&#34;headings&#34;&gt;Headings&lt;/h2&gt;
+&lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;
+&lt;h1 id=&#34;h1&#34;&gt;H1&lt;/h1&gt;
+&lt;h2 id=&#34;h2&#34;&gt;H2&lt;/h2&gt;
+&lt;h3 id=&#34;h3&#34;&gt;H3&lt;/h3&gt;
+&lt;h4 id=&#34;h4&#34;&gt;H4&lt;/h4&gt;
+&lt;h5 id=&#34;h5&#34;&gt;H5&lt;/h5&gt;
+&lt;h6 id=&#34;h6&#34;&gt;H6&lt;/h6&gt;
+&lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;
+&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p&gt;
+&lt;p&gt;Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.&lt;/p&gt;
+&lt;h2 id=&#34;blockquotes&#34;&gt;Blockquotes&lt;/h2&gt;
+&lt;p&gt;The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a &lt;code&gt;footer&lt;/code&gt; or &lt;code&gt;cite&lt;/code&gt; element, and optionally with in-line changes such as annotations and abbreviations.&lt;/p&gt;
+&lt;h4 id=&#34;blockquote-without-attribution&#34;&gt;Blockquote without attribution&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+&lt;strong&gt;Note&lt;/strong&gt; that you can use &lt;em&gt;Markdown syntax&lt;/em&gt; within a blockquote.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;blockquote-with-attribution&#34;&gt;Blockquote with attribution&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Don&amp;rsquo;t communicate by sharing memory, share memory by communicating.&lt;/p&gt;
+— &lt;cite&gt;Rob Pike&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;tables&#34;&gt;Tables&lt;/h2&gt;
+&lt;p&gt;Tables aren&amp;rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Age&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Bob&lt;/td&gt;
+&lt;td&gt;27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Alice&lt;/td&gt;
+&lt;td&gt;23&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;inline-markdown-within-tables&#34;&gt;Inline Markdown within tables&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Inline   &lt;/th&gt;
+&lt;th&gt;Markdown   &lt;/th&gt;
+&lt;th&gt;In   &lt;/th&gt;
+&lt;th&gt;Table&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt;italics&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;bold&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;del&gt;strikethrough&lt;/del&gt;   &lt;/td&gt;
+&lt;td&gt;&lt;code&gt;code&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;code-blocks&#34;&gt;Code Blocks&lt;/h2&gt;
+&lt;h4 id=&#34;code-block-with-backticks&#34;&gt;Code block with backticks&lt;/h4&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;html
 &amp;lt;!DOCTYPE html&amp;gt;
 &amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
 &amp;lt;head&amp;gt;
-&amp;lt;meta charset=&amp;quot;UTF-8&amp;quot;&amp;gt;
-&amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
+  &amp;lt;meta charset=&amp;quot;UTF-8&amp;quot;&amp;gt;
+  &amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
 &amp;lt;/head&amp;gt;
 &amp;lt;body&amp;gt;
-&amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
+  &amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
 &amp;lt;/body&amp;gt;
 &amp;lt;/html&amp;gt;
-&lt;/code>&lt;/pre>&lt;h4 id="code-block-indented-with-four-spaces">Code block indented with four spaces&lt;/h4>
-&lt;pre>&lt;code>&amp;lt;!DOCTYPE html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;code-block-indented-with-four-spaces&#34;&gt;Code block indented with four spaces&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
 &amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
 &amp;lt;head&amp;gt;
-&amp;lt;meta charset=&amp;quot;UTF-8&amp;quot;&amp;gt;
-&amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
+  &amp;lt;meta charset=&amp;quot;UTF-8&amp;quot;&amp;gt;
+  &amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
 &amp;lt;/head&amp;gt;
 &amp;lt;body&amp;gt;
-&amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
+  &amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
 &amp;lt;/body&amp;gt;
 &amp;lt;/html&amp;gt;
-&lt;/code>&lt;/pre>
-&lt;h4 id="code-block-with-hugos-internal-highlight-shortcode">Code block with Hugo&amp;rsquo;s internal highlight shortcode&lt;/h4>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="cp">&amp;lt;!DOCTYPE html&amp;gt;&lt;/span>
-&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">html&lt;/span> &lt;span class="na">lang&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;en&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">meta&lt;/span> &lt;span class="na">charset&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;UTF-8&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Example HTML5 Document&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Test&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">html&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
-&lt;h2 id="list-types">List Types&lt;/h2>
-&lt;h4 id="ordered-list">Ordered List&lt;/h4>
-&lt;ol>
-&lt;li>First item&lt;/li>
-&lt;li>Second item&lt;/li>
-&lt;li>Third item&lt;/li>
-&lt;/ol>
-&lt;h4 id="unordered-list">Unordered List&lt;/h4>
-&lt;ul>
-&lt;li>List item&lt;/li>
-&lt;li>Another item&lt;/li>
-&lt;li>And another item&lt;/li>
-&lt;/ul>
-&lt;h4 id="nested-list">Nested list&lt;/h4>
-&lt;ul>
-&lt;li>Item&lt;/li>
-&lt;/ul>
-&lt;ol>
-&lt;li>First Sub-item&lt;/li>
-&lt;li>Second Sub-item&lt;/li>
-&lt;/ol>
-&lt;h2 id="other-elements--abbr-sub-sup-kbd-mark">Other Elements — abbr, sub, sup, kbd, mark&lt;/h2>
-&lt;p>&lt;abbr title="Graphics Interchange Format">GIF&lt;/abbr> is a bitmap image format.&lt;/p>
-&lt;p>H&lt;sub>2&lt;/sub>O&lt;/p>
-&lt;p>X&lt;sup>n&lt;/sup> + Y&lt;sup>n&lt;/sup> = Z&lt;sup>n&lt;/sup>&lt;/p>
-&lt;p>Press &lt;kbd>&lt;kbd>CTRL&lt;/kbd>+&lt;kbd>ALT&lt;/kbd>+&lt;kbd>Delete&lt;/kbd>&lt;/kbd> to end the session.&lt;/p>
-&lt;p>Most &lt;mark>salamanders&lt;/mark> are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>The above quote is excerpted from Rob Pike&amp;rsquo;s &lt;a href="https://www.youtube.com/watch?v=PAAkCSZUG1c">talk&lt;/a> during Gopherfest, November 18, 2015.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item><item><title>Rich Content</title><link>https://cswhizz.github.io/rich-content/</link><pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate><guid>https://cswhizz.github.io/rich-content/</guid><description>&lt;p>Hugo ships with several &lt;a href="https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes">Built-in Shortcodes&lt;/a> for rich content, along with a &lt;a href="https://gohugo.io/about/hugo-and-gdpr/">Privacy Config&lt;/a> and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p>
-&lt;hr>
-&lt;h2 id="instagram-simple-shortcode">Instagram Simple Shortcode&lt;/h2>
-&lt;br>
-&lt;hr>
-&lt;h2 id="youtube-privacy-enhanced-shortcode">YouTube Privacy Enhanced Shortcode&lt;/h2>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/ZJthWmvUzzc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
-&lt;/div>
-&lt;br>
-&lt;hr>
-&lt;h2 id="twitter-simple-shortcode">Twitter Simple Shortcode&lt;/h2>
-&lt;style type="text/css">
-.twitter-tweet {
-font: 14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-border-left: 4px solid #2b7bb9;
-padding-left: 1.5em;
-color: #555;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;code-block-with-hugos-internal-highlight-shortcode&#34;&gt;Code block with Hugo&amp;rsquo;s internal highlight shortcode&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;lang&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;meta&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;charset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;UTF-8&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Example HTML5 Document&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Test&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&#34;list-types&#34;&gt;List Types&lt;/h2&gt;
+&lt;h4 id=&#34;ordered-list&#34;&gt;Ordered List&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;First item&lt;/li&gt;
+&lt;li&gt;Second item&lt;/li&gt;
+&lt;li&gt;Third item&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;unordered-list&#34;&gt;Unordered List&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;List item&lt;/li&gt;
+&lt;li&gt;Another item&lt;/li&gt;
+&lt;li&gt;And another item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;nested-list&#34;&gt;Nested list&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;First Sub-item&lt;/li&gt;
+&lt;li&gt;Second Sub-item&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;other-elements--abbr-sub-sup-kbd-mark&#34;&gt;Other Elements — abbr, sub, sup, kbd, mark&lt;/h2&gt;
+&lt;p&gt;&lt;abbr title=&#34;Graphics Interchange Format&#34;&gt;GIF&lt;/abbr&gt; is a bitmap image format.&lt;/p&gt;
+&lt;p&gt;H&lt;sub&gt;2&lt;/sub&gt;O&lt;/p&gt;
+&lt;p&gt;X&lt;sup&gt;n&lt;/sup&gt; + Y&lt;sup&gt;n&lt;/sup&gt; = Z&lt;sup&gt;n&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Press &lt;kbd&gt;&lt;kbd&gt;CTRL&lt;/kbd&gt;+&lt;kbd&gt;ALT&lt;/kbd&gt;+&lt;kbd&gt;Delete&lt;/kbd&gt;&lt;/kbd&gt; to end the session.&lt;/p&gt;
+&lt;p&gt;Most &lt;mark&gt;salamanders&lt;/mark&gt; are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;The above quote is excerpted from Rob Pike&amp;rsquo;s &lt;a href=&#34;https://www.youtube.com/watch?v=PAAkCSZUG1c&#34;&gt;talk&lt;/a&gt; during Gopherfest, November 18, 2015.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Rich Content</title>
+      <link>https://cswhizz.github.io/rich-content/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://cswhizz.github.io/rich-content/</guid>
+      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;instagram-simple-shortcode&#34;&gt;Instagram Simple Shortcode&lt;/h2&gt;
+
+&lt;br&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;youtube-privacy-enhanced-shortcode&#34;&gt;YouTube Privacy Enhanced Shortcode&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/ZJthWmvUzzc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;br&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;twitter-simple-shortcode&#34;&gt;Twitter Simple Shortcode&lt;/h2&gt;
+
+
+
+
+&lt;style type=&#34;text/css&#34;&gt;
+  .twitter-tweet {
+  font: 14px/1.45 -apple-system,BlinkMacSystemFont,&#34;Segoe UI&#34;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&#34;Helvetica Neue&#34;,sans-serif;
+  border-left: 4px solid #2b7bb9;
+  padding-left: 1.5em;
+  color: #555;
 }
-.twitter-tweet a {
-color: #2b7bb9;
-text-decoration: none;
+  .twitter-tweet a {
+  color: #2b7bb9;
+  text-decoration: none;
 }
-blockquote.twitter-tweet a:hover,
-blockquote.twitter-tweet a:focus {
-text-decoration: underline;
+  blockquote.twitter-tweet a:hover,
+  blockquote.twitter-tweet a:focus {
+  text-decoration: underline;
 }
-&lt;/style>
-&lt;blockquote class="twitter-tweet">&lt;p lang="en" dir="ltr">“In addition to being more logical, asymmetry has the advantage that its complete appearance is far more optically effective than symmetry.”&lt;br>— Jan Tschichold &lt;a href="https://t.co/gcv7SrhvJb">pic.twitter.com/gcv7SrhvJb&lt;/a>&lt;/p>&amp;mdash; Graphic Design History (@DesignReviewed) &lt;a href="https://twitter.com/DesignReviewed/status/1085870671291310081?ref_src=twsrc%5Etfw">January 17, 2019&lt;/a>&lt;/blockquote>
-&lt;br>
-&lt;hr>
-&lt;h2 id="vimeo-simple-shortcode">Vimeo Simple Shortcode&lt;/h2>
-&lt;style>
+&lt;/style&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;“In addition to being more logical, asymmetry has the advantage that its complete appearance is far more optically effective than symmetry.”&lt;br&gt;— Jan Tschichold &lt;a href=&#34;https://t.co/gcv7SrhvJb&#34;&gt;pic.twitter.com/gcv7SrhvJb&lt;/a&gt;&lt;/p&gt;&amp;mdash; Graphic Design History (@DesignReviewed) &lt;a href=&#34;https://twitter.com/DesignReviewed/status/1085870671291310081?ref_src=twsrc%5Etfw&#34;&gt;January 17, 2019&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;br&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;vimeo-simple-shortcode&#34;&gt;Vimeo Simple Shortcode&lt;/h2&gt;
+
+
+
+
+
+
+&lt;style&gt;
 .__h_video {
-position: relative;
-padding-bottom: 56.23%;
-height: 0;
-overflow: hidden;
-width: 100%;
-background: #000;
+   position: relative;
+   padding-bottom: 56.23%;
+   height: 0;
+   overflow: hidden;
+   width: 100%;
+   background: #000;
 }
 .__h_video img {
-width: 100%;
-height: auto;
-color: #000;
+   width: 100%;
+   height: auto;
+   color: #000;
 }
 .__h_video .play {
-height: 72px;
-width: 72px;
-left: 50%;
-top: 50%;
-margin-left: -36px;
-margin-top: -36px;
-position: absolute;
-cursor: pointer;
+   height: 72px;
+   width: 72px;
+   left: 50%;
+   top: 50%;
+   margin-left: -36px;
+   margin-top: -36px;
+   position: absolute;
+   cursor: pointer;
 }
-&lt;/style>
-&lt;div class="s_video_simple __h_video">
-&lt;a href="https://vimeo.com/4.8912912e&amp;#43;07" rel="noopener" target="_blank">
-&lt;img src="https://i.vimeocdn.com/video/337401969-979f0cc9f55fdf305fb8984e90d92639ec9d7ecc4c9dfbc6536e28edb43784ce-d_640" srcset="https://i.vimeocdn.com/video/337401969-979f0cc9f55fdf305fb8984e90d92639ec9d7ecc4c9dfbc6536e28edb43784ce-d_640 1x, https://i.vimeocdn.com/video/337401969-979f0cc9f55fdf305fb8984e90d92639ec9d7ecc4c9dfbc6536e28edb43784ce-d_640 2x" alt="Sing Jan Swing - Kinetic Type">
-&lt;div class="play">&lt;svg version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 61">&lt;circle cx="30.5" cy="30.5" r="30.5" opacity=".8" fill="#000">&lt;/circle>&lt;path d="M25.3 19.2c-2.1-1.2-3.8-.2-3.8 2.2v18.1c0 2.4 1.7 3.4 3.8 2.2l16.6-9.1c2.1-1.2 2.1-3.2 0-4.4l-16.6-9z" fill="#fff">&lt;/path>&lt;/svg>&lt;/div>&lt;/a>&lt;/div></description></item><item><title>Placeholder Text</title><link>https://cswhizz.github.io/placeholder-text/</link><pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate><guid>https://cswhizz.github.io/placeholder-text/</guid><description>&lt;p>Lorem est tota propiore conpellat pectoribus de
-pectora summo.&lt;/p>
-&lt;p>Redit teque digerit hominumque toris verebor lumina non cervice
+&lt;/style&gt;
+
+
+&lt;div class=&#34;s_video_simple __h_video&#34;&gt;
+&lt;a href=&#34;https://vimeo.com/4.8912912e&amp;#43;07&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;
+
+
+&lt;img src=&#34;https://i.vimeocdn.com/video/337401969-979f0cc9f55fdf305fb8984e90d92639ec9d7ecc4c9dfbc6536e28edb43784ce-d_640&#34; srcset=&#34;https://i.vimeocdn.com/video/337401969-979f0cc9f55fdf305fb8984e90d92639ec9d7ecc4c9dfbc6536e28edb43784ce-d_640 1x, https://i.vimeocdn.com/video/337401969-979f0cc9f55fdf305fb8984e90d92639ec9d7ecc4c9dfbc6536e28edb43784ce-d_640 2x&#34; alt=&#34;Sing Jan Swing - Kinetic Type&#34;&gt;
+&lt;div class=&#34;play&#34;&gt;&lt;svg version=&#34;1&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 61 61&#34;&gt;&lt;circle cx=&#34;30.5&#34; cy=&#34;30.5&#34; r=&#34;30.5&#34; opacity=&#34;.8&#34; fill=&#34;#000&#34;&gt;&lt;/circle&gt;&lt;path d=&#34;M25.3 19.2c-2.1-1.2-3.8-.2-3.8 2.2v18.1c0 2.4 1.7 3.4 3.8 2.2l16.6-9.1c2.1-1.2 2.1-3.2 0-4.4l-16.6-9z&#34; fill=&#34;#fff&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Placeholder Text</title>
+      <link>https://cswhizz.github.io/placeholder-text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://cswhizz.github.io/placeholder-text/</guid>
+      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de
+pectora summo.&lt;/p&gt;
+&lt;p&gt;Redit teque digerit hominumque toris verebor lumina non cervice
 subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc
 caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis
-lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.&lt;/p>
-&lt;ol>
-&lt;li>Exierant elisi ambit vivere dedere&lt;/li>
-&lt;li>Duce pollice&lt;/li>
-&lt;li>Eris modo&lt;/li>
-&lt;li>Spargitque ferrea quos palude&lt;/li>
-&lt;/ol>
-&lt;p>Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus
+lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Exierant elisi ambit vivere dedere&lt;/li&gt;
+&lt;li&gt;Duce pollice&lt;/li&gt;
+&lt;li&gt;Eris modo&lt;/li&gt;
+&lt;li&gt;Spargitque ferrea quos palude&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus
 silentia flumen, sustinet placuit petis in dilapsa erat sunt. Atria
-tractus malis.&lt;/p>
-&lt;ol>
-&lt;li>Comas hunc haec pietate fetum procerum dixit&lt;/li>
-&lt;li>Post torum vates letum Tiresia&lt;/li>
-&lt;li>Flumen querellas&lt;/li>
-&lt;li>Arcanaque montibus omnes&lt;/li>
-&lt;li>Quidem et&lt;/li>
-&lt;/ol>
-&lt;h1 id="vagus-elidunt">Vagus elidunt&lt;/h1>
-&lt;p>&lt;svg class="canon" xmlns="http://www.w3.org/2000/svg" overflow="visible" viewBox="0 0 496 373" height="373" width="496">&lt;g fill="none">&lt;path stroke="#000" stroke-width=".75" d="M.599 372.348L495.263 1.206M.312.633l494.95 370.853M.312 372.633L247.643.92M248.502.92l246.76 370.566M330.828 123.869V1.134M330.396 1.134L165.104 124.515">&lt;/path>&lt;path stroke="#ED1C24" stroke-width=".75" d="M275.73 41.616h166.224v249.05H275.73zM54.478 41.616h166.225v249.052H54.478z">&lt;/path>&lt;path stroke="#000" stroke-width=".75" d="M.479.375h495v372h-495zM247.979.875v372">&lt;/path>&lt;ellipse cx="498.729" cy="177.625" rx=".75" ry="1.25">&lt;/ellipse>&lt;ellipse cx="247.229" cy="377.375" rx=".75" ry="1.25">&lt;/ellipse>&lt;/g>&lt;/svg>&lt;/p>
-&lt;p>&lt;a href="https://en.wikipedia.org/wiki/Canons_of_page_construction#Van_de_Graaf_canon">The Van de Graaf Canon&lt;/a>&lt;/p>
-&lt;h2 id="mane-refeci-capiebant-unda-mulcebat">Mane refeci capiebant unda mulcebat&lt;/h2>
-&lt;p>Victa caducifer, malo vulnere contra
+tractus malis.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Comas hunc haec pietate fetum procerum dixit&lt;/li&gt;
+&lt;li&gt;Post torum vates letum Tiresia&lt;/li&gt;
+&lt;li&gt;Flumen querellas&lt;/li&gt;
+&lt;li&gt;Arcanaque montibus omnes&lt;/li&gt;
+&lt;li&gt;Quidem et&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;vagus-elidunt&#34;&gt;Vagus elidunt&lt;/h1&gt;
+&lt;p&gt;&lt;svg class=&#34;canon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; overflow=&#34;visible&#34; viewBox=&#34;0 0 496 373&#34; height=&#34;373&#34; width=&#34;496&#34;&gt;&lt;g fill=&#34;none&#34;&gt;&lt;path stroke=&#34;#000&#34; stroke-width=&#34;.75&#34; d=&#34;M.599 372.348L495.263 1.206M.312.633l494.95 370.853M.312 372.633L247.643.92M248.502.92l246.76 370.566M330.828 123.869V1.134M330.396 1.134L165.104 124.515&#34;&gt;&lt;/path&gt;&lt;path stroke=&#34;#ED1C24&#34; stroke-width=&#34;.75&#34; d=&#34;M275.73 41.616h166.224v249.05H275.73zM54.478 41.616h166.225v249.052H54.478z&#34;&gt;&lt;/path&gt;&lt;path stroke=&#34;#000&#34; stroke-width=&#34;.75&#34; d=&#34;M.479.375h495v372h-495zM247.979.875v372&#34;&gt;&lt;/path&gt;&lt;ellipse cx=&#34;498.729&#34; cy=&#34;177.625&#34; rx=&#34;.75&#34; ry=&#34;1.25&#34;&gt;&lt;/ellipse&gt;&lt;ellipse cx=&#34;247.229&#34; cy=&#34;377.375&#34; rx=&#34;.75&#34; ry=&#34;1.25&#34;&gt;&lt;/ellipse&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Canons_of_page_construction#Van_de_Graaf_canon&#34;&gt;The Van de Graaf Canon&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;mane-refeci-capiebant-unda-mulcebat&#34;&gt;Mane refeci capiebant unda mulcebat&lt;/h2&gt;
+&lt;p&gt;Victa caducifer, malo vulnere contra
 dicere aurato, ludit regale, voca! Retorsit colit est profanae esse virescere
-furit nec; iaculi matertera et visa est, viribus. Divesque creatis, tecta novat collumque vulnus est, parvas. &lt;strong>Faces illo pepulere&lt;/strong> tempus adest. Tendit flamma, ab opes virum sustinet, sidus sequendo urbis.&lt;/p>
-&lt;p>Iubar proles corpore raptos vero auctor imperium; sed et huic: manus caeli
+furit nec; iaculi matertera et visa est, viribus. Divesque creatis, tecta novat collumque vulnus est, parvas. &lt;strong&gt;Faces illo pepulere&lt;/strong&gt; tempus adest. Tendit flamma, ab opes virum sustinet, sidus sequendo urbis.&lt;/p&gt;
+&lt;p&gt;Iubar proles corpore raptos vero auctor imperium; sed et huic: manus caeli
 Lelegas tu lux. Verbis obstitit intus oblectamina fixis linguisque ausus sperare
 Echionides cornuaque tenent clausit possit. Omnia putatur. Praeteritae refert
 ausus; ferebant e primus lora nutat, vici quae mea ipse. Et iter nil spectatae
-vulnus haerentia iuste et exercebat, sui et.&lt;/p>
-&lt;p>Eurytus Hector, materna ipsumque ut Politen, nec, nate, ignari, vernum cohaesit sequitur. Vel &lt;strong>mitis temploque&lt;/strong> vocatus, inque alis, &lt;em>oculos nomen&lt;/em> non silvis corpore coniunx ne displicet illa. Crescunt non unus, vidit visa quantum inmiti flumina mortis facto sic: undique a alios vincula sunt iactata abdita! Suspenderat ego fuit tendit: luna, ante urbem
-Propoetides &lt;strong>parte&lt;/strong>.&lt;/p>
-&lt;style>
+vulnus haerentia iuste et exercebat, sui et.&lt;/p&gt;
+&lt;p&gt;Eurytus Hector, materna ipsumque ut Politen, nec, nate, ignari, vernum cohaesit sequitur. Vel &lt;strong&gt;mitis temploque&lt;/strong&gt; vocatus, inque alis, &lt;em&gt;oculos nomen&lt;/em&gt; non silvis corpore coniunx ne displicet illa. Crescunt non unus, vidit visa quantum inmiti flumina mortis facto sic: undique a alios vincula sunt iactata abdita! Suspenderat ego fuit tendit: luna, ante urbem
+Propoetides &lt;strong&gt;parte&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;style&gt;
 .canon { background: white; width: 100%; height: auto;}
-&lt;/style></description></item><item><title>Emoji Support</title><link>https://cswhizz.github.io/emoji-support/</link><pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate><guid>https://cswhizz.github.io/emoji-support/</guid><description>&lt;p>Emoji can be enabled in a Hugo project in a number of ways.&lt;/p>
-&lt;p>The &lt;a href="https://gohugo.io/functions/emojify/">&lt;code>emojify&lt;/code>&lt;/a> function can be called directly in templates or &lt;a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes">Inline Shortcodes&lt;/a>.&lt;/p>
-&lt;p>To enable emoji globally, set &lt;code>enableEmoji&lt;/code> to &lt;code>true&lt;/code> in your site’s &lt;a href="https://gohugo.io/getting-started/configuration/">configuration&lt;/a> and then you can type emoji shorthand codes directly in content files; e.g.&lt;/p>
-&lt;p>&lt;span class="nowrap">&lt;span class="emojify">🙈&lt;/span> &lt;code>:see_no_evil:&lt;/code>&lt;/span> &lt;span class="nowrap">&lt;span class="emojify">🙉&lt;/span> &lt;code>:hear_no_evil:&lt;/code>&lt;/span> &lt;span class="nowrap">&lt;span class="emojify">🙊&lt;/span> &lt;code>:speak_no_evil:&lt;/code>&lt;/span>&lt;/p>
-&lt;br>
-&lt;p>The &lt;a href="http://www.emoji-cheat-sheet.com/">Emoji cheat sheet&lt;/a> is a useful reference for emoji shorthand codes.&lt;/p>
-&lt;hr>
-&lt;p>&lt;strong>N.B.&lt;/strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">.emoji {
+&lt;/style&gt;</description>
+    </item>
+    
+    
+    
+    
+    
+    <item>
+      <title>Emoji Support</title>
+      <link>https://cswhizz.github.io/emoji-support/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://cswhizz.github.io/emoji-support/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://gohugo.io/functions/emojify/&#34;&gt;&lt;code&gt;emojify&lt;/code&gt;&lt;/a&gt; function can be called directly in templates or &lt;a href=&#34;https://gohugo.io/templates/shortcode-templates/#inline-shortcodes&#34;&gt;Inline Shortcodes&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To enable emoji globally, set &lt;code&gt;enableEmoji&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt; in your site’s &lt;a href=&#34;https://gohugo.io/getting-started/configuration/&#34;&gt;configuration&lt;/a&gt; and then you can type emoji shorthand codes directly in content files; e.g.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;nowrap&#34;&gt;&lt;span class=&#34;emojify&#34;&gt;🙈&lt;/span&gt; &lt;code&gt;:see_no_evil:&lt;/code&gt;&lt;/span&gt;  &lt;span class=&#34;nowrap&#34;&gt;&lt;span class=&#34;emojify&#34;&gt;🙉&lt;/span&gt; &lt;code&gt;:hear_no_evil:&lt;/code&gt;&lt;/span&gt;  &lt;span class=&#34;nowrap&#34;&gt;&lt;span class=&#34;emojify&#34;&gt;🙊&lt;/span&gt; &lt;code&gt;:speak_no_evil:&lt;/code&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;The &lt;a href=&#34;http://www.emoji-cheat-sheet.com/&#34;&gt;Emoji cheat sheet&lt;/a&gt; is a useful reference for emoji shorthand codes.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;N.B.&lt;/strong&gt; The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;.emoji {
 font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,Android Emoji,EmojiSymbols;
-}&lt;/code>&lt;/pre>&lt;/div>
-&lt;style>
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;style&gt;
 .emojify {
-font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,Android Emoji,EmojiSymbols;
-font-size: 2rem;
-vertical-align: middle;
+	font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,Android Emoji,EmojiSymbols;
+	font-size: 2rem;
+	vertical-align: middle;
 }
 @media screen and (max-width:650px) {
-.nowrap {
-display: block;
-margin: 25px 0;
+    .nowrap {
+	display: block;
+	margin: 25px 0;
 }
 }
-&lt;/style></description></item></channel></rss>
+&lt;/style&gt;</description>
+    </item>
+    
+    
+  </channel>
+</rss>
