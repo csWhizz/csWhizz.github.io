@@ -22,13 +22,11 @@
 <table class="tabletable-borderless col-lg-4 text-center mx-auto">
 <tr>
 <td class="header-nav-item p-3">
-<a href=/ title=posts><i class="fa fa-home"></i>Posts</a>
+<a href=/ title=Home><i class="fa fa-home"></i> &nbsp;Home</a>
 </td><td class="header-nav-item p-3">
-<a href=/about/ title=about><i class="fa fa-info"></i>About</a>
+<a href=/about/ title=About><i class="fa fa-info"></i> &nbsp;About</a>
 </td><td class="header-nav-item p-3">
-<a href=/ title=posts><i class="fa fa-home"></i>Posts1</a>
-</td><td class="header-nav-item p-3">
-<a href=/about/ title=about><i class="fa fa-info"></i>About1</a>
+<a href=https://www.getrevue.co/profile/cswhizz/ title=Subscribe><i class="fa fa-bell"></i> &nbsp;Subscribe</a>
 </td>
 </tr>
 </table>
@@ -198,26 +196,6 @@
 </section></div>
 </div>
 </div>
-<div class=col-lg-3>
-<div class=section-title>
-<h2>Related articles</h2>
-</div>
-<article class="minipost mt-3">
-<div class=row>
-<div class=col-5>
-<a href=https://cswhizz.github.io/emoji-support/>
-<img src=https://via.placeholder.com/1920x1080/000000 alt=ft-img class="img-fluid rounded">
-</a>
-</div>
-<div class=col-7>
-<p><b><a href=https://cswhizz.github.io/emoji-support/>Emoji Support</a></b></p>
-<span>
-<time>March 5, 2019</time>
-</span>
-</div>
-</div>
-</article>
-</div>
 </div>
 </div>
 </div>
@@ -225,15 +203,11 @@
 <footer class="text-center text-white mt-5 footer">
 <div class="container p-4">
 <section class=mb-4>
-<a class="btn btn-outline-light btn-floating m-1" href=#! role=button><i class="fa fa-facebook-f"></i></a>
-<a class="btn btn-outline-light btn-floating m-1" href=#! role=button><i class="fa fa-twitter"></i></a>
-<a class="btn btn-outline-light btn-floating m-1" href=#! role=button><i class="fa fa-google"></i></a>
-<a class="btn btn-outline-light btn-floating m-1" href=#! role=button><i class="fa fa-instagram"></i></a>
-<a class="btn btn-outline-light btn-floating m-1" href=#! role=button><i class="fa fa-linkedin"></i></a>
-<a class="btn btn-outline-light btn-floating m-1" href=#! role=button><i class="fa fa-github"></i></a>
+<a class="btn btn-outline-light btn-floating m-1" target=_blank href=https://twitter.com/cswhizz2310 role=button><i class="fa fa-twitter"></i></a>
+<a class="btn btn-outline-light btn-floating m-1" target=_blank href=https://github.com/csWhizz role=button><i class="fa fa-github"></i></a>
 </section>
 <section>
-<form>
+<form action=https://www.getrevue.co/profile/cswhizz/add_subscriber method=post id=revue-form name=revue-form target=_blank>
 <div class="row d-flex justify-content-center">
 <div class=col-auto>
 <p class=pt-2>
@@ -242,13 +216,11 @@
 </div>
 <div class="col-md-5 col-12">
 <div class="form-outline form-white mb-4">
-<input type=email id=form5Example21 class=form-control placeholder="Email Address">
+<input class="revue-form-field form-control" placeholder="Your email address..." type=email name=member[email] id=member_email>
 </div>
 </div>
 <div class=col-auto>
-<button type=submit class="btn btn-outline-light mb-4">
-Subscribe
-</button>
+<input class="btn btn-outline-light mb-4" type=submit value=Subscribe name=member[subscribe] id=member_submit>
 </div>
 </div>
 </form>
