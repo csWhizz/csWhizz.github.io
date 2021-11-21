@@ -3,6 +3,8 @@ window.onscroll = function() {myFunction()};
 
 // Get the header
 var header = document.getElementById("myHeader");
+var fullheader = document.getElementById("fullHeader");
+
 
 // Get the offset position of the navbar
 var sticky = header.offsetTop;
@@ -11,7 +13,12 @@ var sticky = header.offsetTop;
 function myFunction() {
   if (window.pageYOffset > sticky) {
     header.classList.add("sticky");
+    halfHeader.classList.add("d-none");
+    fullHeader.classList.remove("d-none");
   } else {
     header.classList.remove("sticky");
+    halfHeader.classList.remove("d-none");
+    fullHeader.classList.add("d-none");
+
   }
 }
