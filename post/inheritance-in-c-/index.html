@@ -1,0 +1,230 @@
+<!doctype html><html><head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta property="og:image" content="https://neerajadhav.github.io/images/post/inheritance.png">
+<meta name=description content="Mag for Computer Enthusiasts">
+<link rel="shortcut icon" href=/images/csWhizz-icon.png>
+<link rel=stylesheet href=/css/style.min.css>
+<title>Inheritance in C++</title>
+</head>
+<body><div class=header>
+<section class=container100>
+<header class=container>
+<div class="row logo">
+<center class="col-md-12 mt-3">
+<h1 class=display-4><a class=logo href=https://cswhizz.github.io>csWhizz</a></h1>
+</center>
+</div>
+</header>
+</section>
+<section class=container100 id=myHeader>
+<header class=container>
+<center class="row table-responsive" id=halfHeader>
+<table class="tabletable-borderless col-lg-4 text-center mx-auto">
+<tr>
+<td class="header-nav-item p-3">
+<a href=/ title=csWhizz class=csWhizz><i class="fa fa-lg fa-home"></i></a>
+</td>
+<td class="header-nav-item p-3">
+<a href=/month title=Month class=Month><i class="fa fa-lg fa-calendar"></i></a>
+</td>
+<td class="header-nav-item p-3">
+<a href=/series/ title=Series class=Series><i class="fa fa-lg fa-th-list"></i></a>
+</td>
+<td class="header-nav-item p-3">
+<a href=https://www.getrevue.co/profile/cswhizz/ title=Subscribe class=Subscribe><i class="fa fa-lg fa-bell"></i></a>
+</td>
+</tr>
+</table>
+</center>
+<div class=d-none id=fullHeader>
+<table class="tabletable-borderless col-lg-4 w-100 text-center mx-auto">
+<tr>
+<td style=text-align:left>
+&nbsp;<a class="logo display-6 my-auto" href=https://cswhizz.github.io>csWhizz</a>
+</td>
+<td class="header-nav-item p-3" style=text-align:right;width:5%>
+<a href=/ title=csWhizz class=csWhizz><i class="fa fa-lg fa-home"></i></a>
+</td>
+<td class="header-nav-item p-3" style=text-align:right;width:5%>
+<a href=/month title=Month class=Month><i class="fa fa-lg fa-calendar"></i></a>
+</td>
+<td class="header-nav-item p-3" style=text-align:right;width:5%>
+<a href=/series/ title=Series class=Series><i class="fa fa-lg fa-th-list"></i></a>
+</td>
+<td class="header-nav-item p-3" style=text-align:right;width:5%>
+<a href=https://www.getrevue.co/profile/cswhizz/ title=Subscribe class=Subscribe><i class="fa fa-lg fa-bell"></i></a>
+</td>
+</tr>
+</table>
+</div>
+</header>
+</section>
+</div><main id=content>
+<div class=container100>
+<div class=container>
+<div class="row single-content">
+<div class=col-lg-9>
+<h1 style="padding:40px 0">Inheritance in C++</h1>
+<div class=row>
+<div class=col-lg-3>
+<div class=row>
+<ul class="social-links has-bg-color list-unstyled list-inline" style=line-height:0>
+<li class=list-inline-item>
+<b>Share:</b>
+</li>
+<li class=list-inline-item>
+<a class="resp-sharing-button__link d-block" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fcswhizz.github.io%2fpost%2finheritance-in-c-%2f" target=_blank rel=noopener aria-label>
+<div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small">
+<div aria-hidden=true class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+<i style=color:#3b5998 class="fa fa-facebook"></i>
+</div>
+</div>
+</a>
+</li>
+<li class=list-inline-item>
+<a class="resp-sharing-button__link d-block" href="https://twitter.com/intent/tweet/?text=Inheritance%20in%20C%2b%2b&url=https%3a%2f%2fcswhizz.github.io%2fpost%2finheritance-in-c-%2f" target=_blank rel=noopener aria-label>
+<div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small">
+<div aria-hidden=true class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+<i style=color:#00acee class="fa fa-twitter"></i>
+</div>
+</div>
+</a>
+</li>
+<li class=list-inline-item>
+<a class="resp-sharing-button__link d-block" href="mailto:?subject=Inheritance%20in%20C%2b%2b&body=https%3a%2f%2fcswhizz.github.io%2fpost%2finheritance-in-c-%2f" target=_self rel=noopener aria-label>
+<div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--small">
+<div aria-hidden=true class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+<i class="fa fa-envelope"></i>
+</div>
+</div>
+</a>
+</li>
+<li class=list-inline-item>
+<a class="resp-sharing-button__link d-block" href="whatsapp://send?text=Inheritance%20in%20C%2b%2b%20https%3a%2f%2fcswhizz.github.io%2fpost%2finheritance-in-c-%2f" target=_blank rel=noopener aria-label>
+<div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--small">
+<div aria-hidden=true class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+<i style=color:#006400 class="fa fa-whatsapp"></i>
+</div>
+</div>
+</a>
+</li>
+</ul><div class="col-lg-12 col-6">
+<small class=text-muted><small>Written by</small></small><br>
+<a href=https://neerajadhav.github.io/author/neeraj/ class=card-meta-author>
+<img loading=lazy style="width:30px;border-radius:100%;margin:10px auto" src=https://neerajadhav.github.io/images/author/neeraj.jpg alt="Neeraj Adhav">
+&nbsp;<small>Neeraj Adhav</small>
+</a>
+</div>
+<div class="col-lg-12 col-6">
+<small class=text-muted><small>Published on</small></small><br>
+<small style="margin:10px auto">
+<time>September 10, 2021</time>
+</small>
+</div>
+</div>
+<br>
+</div>
+<div class=col-lg-9>
+<img loading=lazy class="w-100 rounded" src=https://neerajadhav.github.io/images/post/inheritance.png alt="Inheritance in C++">
+<br><br><p>C++ allow for creating a heirarchy of classes so that objects do not have to be instances of a single class. Consider the following example:</p>
+<h3 id=inheritancecpp>inheritance.cpp</h3>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-c++ data-lang=c++><span class=cp>#include</span> <span class=cpf>&lt;iostream&gt;</span><span class=cp>
+</span><span class=cp></span><span class=k>using</span> <span class=k>namespace</span> <span class=n>std</span><span class=p>;</span>
+
+<span class=k>class</span> <span class=nc>base</span> <span class=c1>//single base class
+</span><span class=c1></span><span class=p>{</span>
+ 	<span class=k>public</span><span class=o>:</span>
+ 	<span class=kt>int</span> <span class=n>x</span><span class=p>;</span>
+ 	<span class=kt>void</span> <span class=nf>getx</span><span class=p>()</span>
+ 	<span class=p>{</span>
+		<span class=n>x</span> <span class=o>=</span> <span class=mi>2</span><span class=p>;</span>
+    	<span class=n>cout</span> <span class=o>&lt;&lt;</span> <span class=s>&#34;x = 2&#34;</span> <span class=o>&lt;&lt;</span> <span class=n>endl</span><span class=p>;</span>
+ 	<span class=p>}</span>
+<span class=p>};</span>
+
+<span class=k>class</span> <span class=nc>derive1</span> <span class=o>:</span> <span class=k>public</span> <span class=n>base</span> <span class=c1>// derived class from base class
+</span><span class=c1></span><span class=p>{</span>
+ 	<span class=k>public</span><span class=o>:</span>
+ 	<span class=kt>int</span> <span class=n>y</span><span class=p>;</span>
+ 	<span class=kt>void</span> <span class=nf>gety</span><span class=p>()</span>
+ 	<span class=p>{</span>
+		<span class=n>y</span> <span class=o>=</span> <span class=mi>3</span><span class=p>;</span>
+ 	    <span class=n>cout</span> <span class=o>&lt;&lt;</span> <span class=s>&#34;y = 3&#34;</span> <span class=o>&lt;&lt;</span> <span class=n>endl</span><span class=p>;</span>
+ 	<span class=p>}</span>
+<span class=p>};</span>
+
+<span class=k>class</span> <span class=nc>derive2</span> <span class=o>:</span> <span class=k>public</span> <span class=n>derive1</span>   <span class=c1>// derived from class derive1
+</span><span class=c1></span><span class=p>{</span>
+ 	<span class=k>private</span><span class=o>:</span>
+ 	<span class=kt>int</span> <span class=n>z</span><span class=p>;</span>
+ 	<span class=k>public</span><span class=o>:</span>
+ 	<span class=kt>void</span> <span class=n>getz</span><span class=p>()</span>
+ 	<span class=p>{</span>
+		<span class=n>z</span> <span class=o>=</span> <span class=mi>3</span><span class=p>;</span>
+    	<span class=n>cout</span> <span class=o>&lt;&lt;</span> <span class=s>&#34;z = 3&#34;</span> <span class=o>&lt;&lt;</span> <span class=n>endl</span><span class=p>;</span>
+ 	<span class=p>}</span>
+ 	<span class=kt>void</span> <span class=nf>product</span><span class=p>()</span>
+ 	<span class=p>{</span>
+ 	    <span class=n>cout</span> <span class=o>&lt;&lt;</span> <span class=s>&#34;Product = &#34;</span> <span class=o>&lt;&lt;</span> <span class=n>x</span> <span class=o>*</span> <span class=n>y</span> <span class=o>*</span> <span class=n>z</span> <span class=o>&lt;&lt;</span> <span class=n>endl</span><span class=p>;</span>
+ 	<span class=p>}</span>
+<span class=p>};</span>
+
+<span class=kt>int</span> <span class=nf>main</span><span class=p>()</span>
+<span class=p>{</span>
+     <span class=n>derive2</span> <span class=n>a</span><span class=p>;</span>      <span class=c1>//object of derived2 class
+</span><span class=c1></span>     <span class=n>a</span><span class=p>.</span><span class=n>getx</span><span class=p>();</span>
+     <span class=n>a</span><span class=p>.</span><span class=n>gety</span><span class=p>();</span>
+     <span class=n>a</span><span class=p>.</span><span class=n>getz</span><span class=p>();</span>
+     <span class=n>a</span><span class=p>.</span><span class=n>product</span><span class=p>();</span>
+     <span class=k>return</span> <span class=mi>0</span><span class=p>;</span>
+<span class=p>}</span>
+</code></pre></div><h3 id=output>Output</h3>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-c++ data-lang=c++><span class=n>x</span> <span class=o>=</span> <span class=mi>2</span>
+<span class=n>y</span> <span class=o>=</span> <span class=mi>3</span>
+<span class=n>z</span> <span class=o>=</span> <span class=mi>3</span>
+<span class=n>Product</span> <span class=o>=</span> <span class=mi>18</span>
+</code></pre></div><p>The class <code>base</code> is the <em>base class</em> or <em>superclass</em> and the classes <code>derive1</code> and <code>derive2</code> are the child classes or <em>subclasses</em> or <em>derived classes</em>. The child classes inherits all the data members and member functions of the base class so that they do not have to repeat the same definitions. However the child classes can have their own data members and member functions and even override the member functions of the base class. In this way, both the base classes and derived classes have some measure of control over their data members and member functions.</p>
+<p>This code is pretty self explanatory. The class <code>base</code> has a single data member <code>x</code> and a single member function <code>getx()</code>. The class <code>derive1</code> inherits all the data members and member functions of the base class and adds a new data member <code>y</code> and a new member function <code>gety()</code>. The class <code>derive2</code> inherits all the data members and member functions of the derived class <code>derive1</code> and adds a new data member <code>z</code> and a new member function <code>getz()</code>. The class <code>derive2</code> also adds a new member function <code>product()</code> which calculates the product of the three data members <code>x</code>, <code>y</code> and <code>z</code>.</p>
+<script src=https://utteranc.es/client.js repo=csWhizz/cswhizz.github.io issue-term=pathname theme=preferred-color-scheme crossorigin=anonymous async></script>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer class="text-center text-white mt-5 footer">
+<div class="container p-4">
+<section class=mb-4>
+<a class="btn btn-outline-light btn-floating m-1" target=_blank href=https://twitter.com/cswhizz2310 role=button><i class="fa fa-twitter"></i></a>
+<a class="btn btn-outline-light btn-floating m-1" target=_blank href=https://github.com/csWhizz role=button><i class="fa fa-github"></i></a>
+</section>
+<section>
+<form action=https://www.getrevue.co/profile/cswhizz/add_subscriber method=post id=revue-form name=revue-form target=_blank>
+<div class="row d-flex justify-content-center">
+<div class=col-auto>
+<p class=pt-2>
+<strong>Sign up for our newsletter</strong>
+</p>
+</div>
+<div class="col-md-5 col-12">
+<div class="form-outline form-white mb-4">
+<input class="revue-form-field form-control mailfield" placeholder="Your email address..." type=email name=member[email] id=member_email>
+</div>
+</div>
+<div class=col-auto>
+<input class="btn btn-outline-light mb-4" type=submit value=Subscribe name=member[subscribe] id=member_submit>
+</div>
+</div>
+</form>
+</section>
+</div>
+<div class="text-center p-3" style=background-color:rgba(0,0,0,.2)>
+Copyright © 2022 csWhizz
+</div>
+</footer>
+<script src=https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js integrity=sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM crossorigin=anonymous></script>
+<script src=https://use.fontawesome.com/aef602c7ec.js></script>
+<script src=/scripts/script.js></script></body>
+</html>

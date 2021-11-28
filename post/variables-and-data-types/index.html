@@ -1,0 +1,260 @@
+<!doctype html><html><head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta property="og:image" content="https://neerajadhav.github.io/images/post/variables.png">
+<meta name=description content="Mag for Computer Enthusiasts">
+<link rel="shortcut icon" href=/images/csWhizz-icon.png>
+<link rel=stylesheet href=/css/style.min.css>
+<title>Variables and Data Types</title>
+</head>
+<body><div class=header>
+<section class=container100>
+<header class=container>
+<div class="row logo">
+<center class="col-md-12 mt-3">
+<h1 class=display-4><a class=logo href=https://cswhizz.github.io>csWhizz</a></h1>
+</center>
+</div>
+</header>
+</section>
+<section class=container100 id=myHeader>
+<header class=container>
+<center class="row table-responsive" id=halfHeader>
+<table class="tabletable-borderless col-lg-4 text-center mx-auto">
+<tr>
+<td class="header-nav-item p-3">
+<a href=/ title=csWhizz class=csWhizz><i class="fa fa-lg fa-home"></i></a>
+</td>
+<td class="header-nav-item p-3">
+<a href=/month title=Month class=Month><i class="fa fa-lg fa-calendar"></i></a>
+</td>
+<td class="header-nav-item p-3">
+<a href=/series/ title=Series class=Series><i class="fa fa-lg fa-th-list"></i></a>
+</td>
+<td class="header-nav-item p-3">
+<a href=https://www.getrevue.co/profile/cswhizz/ title=Subscribe class=Subscribe><i class="fa fa-lg fa-bell"></i></a>
+</td>
+</tr>
+</table>
+</center>
+<div class=d-none id=fullHeader>
+<table class="tabletable-borderless col-lg-4 w-100 text-center mx-auto">
+<tr>
+<td style=text-align:left>
+&nbsp;<a class="logo display-6 my-auto" href=https://cswhizz.github.io>csWhizz</a>
+</td>
+<td class="header-nav-item p-3" style=text-align:right;width:5%>
+<a href=/ title=csWhizz class=csWhizz><i class="fa fa-lg fa-home"></i></a>
+</td>
+<td class="header-nav-item p-3" style=text-align:right;width:5%>
+<a href=/month title=Month class=Month><i class="fa fa-lg fa-calendar"></i></a>
+</td>
+<td class="header-nav-item p-3" style=text-align:right;width:5%>
+<a href=/series/ title=Series class=Series><i class="fa fa-lg fa-th-list"></i></a>
+</td>
+<td class="header-nav-item p-3" style=text-align:right;width:5%>
+<a href=https://www.getrevue.co/profile/cswhizz/ title=Subscribe class=Subscribe><i class="fa fa-lg fa-bell"></i></a>
+</td>
+</tr>
+</table>
+</div>
+</header>
+</section>
+</div><main id=content>
+<div class=container100>
+<div class=container>
+<div class="row single-content">
+<div class=col-lg-9>
+<h1 style="padding:40px 0">Variables and Data Types</h1>
+<div class=row>
+<div class=col-lg-3>
+<div class=row>
+<ul class="social-links has-bg-color list-unstyled list-inline" style=line-height:0>
+<li class=list-inline-item>
+<b>Share:</b>
+</li>
+<li class=list-inline-item>
+<a class="resp-sharing-button__link d-block" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fcswhizz.github.io%2fpost%2fvariables-and-data-types%2f" target=_blank rel=noopener aria-label>
+<div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small">
+<div aria-hidden=true class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+<i style=color:#3b5998 class="fa fa-facebook"></i>
+</div>
+</div>
+</a>
+</li>
+<li class=list-inline-item>
+<a class="resp-sharing-button__link d-block" href="https://twitter.com/intent/tweet/?text=Variables%20and%20Data%20Types&url=https%3a%2f%2fcswhizz.github.io%2fpost%2fvariables-and-data-types%2f" target=_blank rel=noopener aria-label>
+<div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small">
+<div aria-hidden=true class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+<i style=color:#00acee class="fa fa-twitter"></i>
+</div>
+</div>
+</a>
+</li>
+<li class=list-inline-item>
+<a class="resp-sharing-button__link d-block" href="mailto:?subject=Variables%20and%20Data%20Types&body=https%3a%2f%2fcswhizz.github.io%2fpost%2fvariables-and-data-types%2f" target=_self rel=noopener aria-label>
+<div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--small">
+<div aria-hidden=true class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+<i class="fa fa-envelope"></i>
+</div>
+</div>
+</a>
+</li>
+<li class=list-inline-item>
+<a class="resp-sharing-button__link d-block" href="whatsapp://send?text=Variables%20and%20Data%20Types%20https%3a%2f%2fcswhizz.github.io%2fpost%2fvariables-and-data-types%2f" target=_blank rel=noopener aria-label>
+<div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--small">
+<div aria-hidden=true class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+<i style=color:#006400 class="fa fa-whatsapp"></i>
+</div>
+</div>
+</a>
+</li>
+</ul><div class="col-lg-12 col-6">
+<small class=text-muted><small>Written by</small></small><br>
+<a href=https://neerajadhav.github.io/author/neeraj/ class=card-meta-author>
+<img loading=lazy style="width:30px;border-radius:100%;margin:10px auto" src=https://neerajadhav.github.io/images/author/neeraj.jpg alt="Neeraj Adhav">
+&nbsp;<small>Neeraj Adhav</small>
+</a>
+</div>
+<div class="col-lg-12 col-6">
+<small class=text-muted><small>Published on</small></small><br>
+<small style="margin:10px auto">
+<time>August 31, 2021</time>
+</small>
+</div>
+</div>
+<br>
+</div>
+<div class=col-lg-9>
+<img loading=lazy class="w-100 rounded" src=https://neerajadhav.github.io/images/post/variables.png alt="Variables and Data Types">
+<br><br><p>This is the third post in this <a href=https://neerajadhav.github.io/series/oop-with-c++/>OOP with C++ Series</a>.</p>
+<h3 id=variables>Variables</h3>
+<p>Before going to the definition of variables, let us relate them to old mathematical equations. All of
+us have solved many mathematical equations since childhood. We used to take x and y as the variables. The important thing that we need to understand is that the equation has names (x and y), which hold values (data). That means the names (x and y) are placeholders for representing data. Same is in the case of variables in programming languages.</p>
+<p>When declaring a variable, we have the option of providing a definition, or
+initial value. If no definition is given, the initial value is unpredictable, so it is
+important that each variable be assigned a value before being used. Variable names
+may consist of any combination of letters, digits, or the underscore (_) character,
+but the first character cannot be a digit. Here are some examples of declarations of
+integral variables.</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-C++ data-lang=C++><span class=kt>short</span> <span class=n>n</span><span class=p>;</span>
+<span class=kt>int</span> <span class=n>octalNumber</span> <span class=o>=</span> <span class=mo>0144</span><span class=p>;</span>
+<span class=kt>char</span> <span class=n>newline_char</span> <span class=o>=</span> <span class=sc>&#39;\n&#39;</span><span class=p>;</span>
+<span class=kt>long</span> <span class=n>BigNumber</span> <span class=o>=</span> <span class=mi>31459265L</span><span class=p>;</span>
+<span class=kt>short</span> <span class=n>_aStrange__123_Variable</span><span class=p>;</span>
+</code></pre></div><h3 id=data-types>Data Types</h3>
+<p>A data type in a programming language is a set of data with
+predefined values. Examples of data types are: integer, floating point, unit number, character,
+string, etc. Finally, there is a special data type void, which explicitly indicates the absence
+of any type information. We need to specify the data type while we declare a variable. This associates the variable with a set of values.</p>
+<h3 id=fundamental-data-types>Fundamental Data Types</h3>
+<p>There are six fundamental data types in C++. They are:</p>
+<table>
+<thead>
+<tr>
+<th>Data Type</th>
+<th>Range</th>
+<th>byte</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>int</td>
+<td>-2,147,483,648 to 2,147,483,647</td>
+<td>4</td>
+</tr>
+<tr>
+<td>short</td>
+<td>-32,768 to 32,767</td>
+<td>2</td>
+</tr>
+<tr>
+<td>long</td>
+<td>-2,147,483,648 to 2,147,483,647</td>
+<td>4</td>
+</tr>
+<tr>
+<td>bool</td>
+<td>true or false</td>
+<td>1</td>
+</tr>
+<tr>
+<td>float</td>
+<td>-3.4E38 to 3.4E38</td>
+<td>4</td>
+</tr>
+<tr>
+<td>double</td>
+<td>-1.7E308 to 1.7E308</td>
+<td>8</td>
+</tr>
+<tr>
+<td>char</td>
+<td>a single character</td>
+<td>1</td>
+</tr>
+<tr>
+<td>string</td>
+<td>a sequence of characters</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p>Let&rsquo;s discuss some data types in detail.</p>
+<h3 id=integer>Integer</h3>
+<p>An <strong>int</strong> variable holds an integer. Integers come in three sizes: short int, (plain) int, and long int. The terms <strong>short</strong> and <strong>long</strong> are synonyms for <strong>short int</strong> and <strong>long int,</strong> respectively. Decimal numbers such as 0, 25, 98765, and -3 are of type int. The suffix <strong>l</strong> or <strong>L</strong> can be added to indicate a long integer, as in 123456789L. Octal (base 8) constants are specified by prefixing the number with the zero digit, and hexadecimal (base 16) constants can be specified by prefixing the number with <strong>0x</strong>. For example, the literals 256, 0400, and 0x100 all represent the integer value 256 (in decimal).</p>
+<h3 id=floating-point>Floating Point</h3>
+<p>A variable of type <strong>float</strong> holds a single-precision floating-point number, and a variable of type double holds a double-precision floating-point number. As it does
+with integers, C++ leaves undefined the exact number of bits in each of the floating point types. By default, floating point literals, such as 3.14159 and -1234.567 are of type double. Scientific or exponential notation may by specified using either <strong>e</strong> or <strong>E</strong> to separate the mantissa from the exponent, as in 3.14E5, which means
+3.14 × 10 5 . To force a literal to be a float, add the suffix <strong>f</strong> or <strong>F</strong>, as in 2.0f or 1.234e-3F.</p>
+<h3 id=characters>Characters</h3>
+<p>A <strong>char</strong> variable holds a single character. A char in C++ is typically 8-bits, but the exact number of bits used for a char variable is dependent on the particular implementation. By allowing different implementations to define the meaning of basic types, such as char, C++ can tailor its generated code to each machine architecture and so achieve maximum efficiency.</p>
+<p>This flexibility can be a source of frustration
+for programmers who want to write machine-independent programs, however. A literal is a constant value appearing in a program. Character literals are enclosed in single quotes, as in <strong>’a’</strong>, <strong>’Q’</strong>, and <strong>’+’</strong>.</p>
+<h3 id=conclusion>Conclusion</h3>
+<p>This is it in the basics of C++. From the next article we will be learning the OOP, Objects and Classes and how they are used in C++. Don&rsquo;t worry about the loops, operators and functions and the rest stuff. We will be learning in a very different flow.</p>
+<p>Till then keep calm, stay healthy, stay motivated and stay focused.</p>
+<p>Here is the permalink: <a href=https://neerajadhav.github.io/series/oop-with-c++/>&ldquo;OOP with C++ Series&rdquo;</a>, save it.</p>
+<p>Also don&rsquo;t forget to comment your views below.</p>
+<script src=https://utteranc.es/client.js repo=csWhizz/cswhizz.github.io issue-term=pathname theme=preferred-color-scheme crossorigin=anonymous async></script>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer class="text-center text-white mt-5 footer">
+<div class="container p-4">
+<section class=mb-4>
+<a class="btn btn-outline-light btn-floating m-1" target=_blank href=https://twitter.com/cswhizz2310 role=button><i class="fa fa-twitter"></i></a>
+<a class="btn btn-outline-light btn-floating m-1" target=_blank href=https://github.com/csWhizz role=button><i class="fa fa-github"></i></a>
+</section>
+<section>
+<form action=https://www.getrevue.co/profile/cswhizz/add_subscriber method=post id=revue-form name=revue-form target=_blank>
+<div class="row d-flex justify-content-center">
+<div class=col-auto>
+<p class=pt-2>
+<strong>Sign up for our newsletter</strong>
+</p>
+</div>
+<div class="col-md-5 col-12">
+<div class="form-outline form-white mb-4">
+<input class="revue-form-field form-control mailfield" placeholder="Your email address..." type=email name=member[email] id=member_email>
+</div>
+</div>
+<div class=col-auto>
+<input class="btn btn-outline-light mb-4" type=submit value=Subscribe name=member[subscribe] id=member_submit>
+</div>
+</div>
+</form>
+</section>
+</div>
+<div class="text-center p-3" style=background-color:rgba(0,0,0,.2)>
+Copyright © 2022 csWhizz
+</div>
+</footer>
+<script src=https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js integrity=sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM crossorigin=anonymous></script>
+<script src=https://use.fontawesome.com/aef602c7ec.js></script>
+<script src=/scripts/script.js></script></body>
+</html>
