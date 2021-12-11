@@ -2,14 +2,14 @@
 ad bolte
 &lt;p>Nulla ornare efficitur ullamcorper. Vestibulum lobortis metus at lacinia ultricies. Nunc accumsan hendrerit lectus eget ultrices. Donec vitae dui ac risus porttitor gravida ac ut leo. Phasellus porta metus non rutrum commodo. Aenean felis purus, aliquet eu libero semper, posuere pharetra risus. Donec id est mi. Integer enim eros, convallis ac mattis sit amet, gravida in eros. Curabitur dignissim, erat quis vestibulum ultricies, ipsum erat imperdiet mi, a porttitor tellus nisi ut enim. Integer augue lacus, mollis nec efficitur id, hendrerit at urna. Etiam congue interdum massa eu venenatis. Nunc sit amet diam ultrices, pharetra velit sit amet, commodo velit. Vestibulum finibus, odio et cursus ultrices, elit metus sollicitudin urna, nec tincidunt lorem lectus id enim.&lt;/p>
 &lt;div class="row d-flex justify-content-center align-items-center rows mb-3">
-&lt;div class="col inarticlesubscribe">
+&lt;div class="col inarticlesubscribe rounded">
 &lt;div>
 &lt;div class="text-center">
-&lt;div class="subscribe-for">
+&lt;div>
 &lt;form action="https://www.getrevue.co/profile/cswhizz/add_subscriber" method="post" id="revue-form" name="revue-form" target="_blank">&lt;br>
 &lt;small>Subscribe to our newsletter&lt;/small>
 &lt;div class="input-group mb-3 mt-4">
-&lt;input class="form-control subscribe-text-input" placeholder="Enter your email" style="z-index: 0;" type="email" name="member[email]" id="member_email" aria-label="Recipient's username" aria-describedby="button-addon2">
+&lt;input class="form-control subscribe-text-input" placeholder="Enter your email" style="z-index: 0;" type="email" name="member[email]" id="member_email" aria-label="Recipient's username" aria-describedby="button-addon2" required>
 &lt;button class="btn btn-subscribe border-rad" style="z-index: 0;" type="submit" value="Subscribe" name="member[subscribe]" id="member_submit">Subscribe&lt;/button>
 &lt;/div>
 &lt;/form>
