@@ -103,19 +103,22 @@ on
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac mattis leo. Cras interdum ultricies nulla. Aliquam mollis gravida enim in cursus. Integer maximus, purus nec feugiat tristique, lacus libero interdum ligula, in auctor magna arcu placerat lectus. Maecenas ornare at nunc non volutpat. Fusce ut sapien iaculis, sollicitudin elit placerat, sodales dui. Ut porta mollis nisi, et sagittis lorem tempus vel. In faucibus tortor a lacus mollis, id gravida erat feugiat. Cras et tincidunt sapien, non ornare urna. Pellentesque egestas pulvinar quam. Morbi eu nunc dignissim, posuere massa ut, ullamcorper lacus. Curabitur massa augue, vestibulum sed nibh in, posuere tristique quam. Sed eu nunc eu nulla venenatis scelerisque. In dapibus, elit id consectetur cursus, tellus eros tempor risus, eu lobortis tellus mauris eget elit. In in ipsum urna.</p>
 ad bolte
 <p>Nulla ornare efficitur ullamcorper. Vestibulum lobortis metus at lacinia ultricies. Nunc accumsan hendrerit lectus eget ultrices. Donec vitae dui ac risus porttitor gravida ac ut leo. Phasellus porta metus non rutrum commodo. Aenean felis purus, aliquet eu libero semper, posuere pharetra risus. Donec id est mi. Integer enim eros, convallis ac mattis sit amet, gravida in eros. Curabitur dignissim, erat quis vestibulum ultricies, ipsum erat imperdiet mi, a porttitor tellus nisi ut enim. Integer augue lacus, mollis nec efficitur id, hendrerit at urna. Etiam congue interdum massa eu venenatis. Nunc sit amet diam ultrices, pharetra velit sit amet, commodo velit. Vestibulum finibus, odio et cursus ultrices, elit metus sollicitudin urna, nec tincidunt lorem lectus id enim.</p>
-<section class="my-3 p-3">
+<div class="row d-flex justify-content-center align-items-center rows mb-3">
+<div class=col>
+<div class=car>
+<div class=text-center>
+<div class=subscribe-form>
 <form action=https://www.getrevue.co/profile/cswhizz/add_subscriber method=post id=revue-form name=revue-form target=_blank>
-<p>
-<strong>Sign up for our newsletter</strong>
-</p>
-<div class="input-group mb-3">
-<input class="revue-form-field form-control mailfield" placeholder="Your email address..." type=email name=member[email] id=member_email>
-<div class=input-group-append>
-<input style=z-index:0 class="btn btn-outline-light" type=submit value=Subscribe name=member[subscribe] id=member_submit>
-</div>
+<div class="input-group mb-3 mt-4">
+<input class=form-control placeholder="Enter your email" style=z-index:0 type=email name=member[email] id=member_email aria-label="Recipient's username" aria-describedby=button-addon2>
+<button class="btn btn-success border-rad" style=z-index:0 type=submit value=Subscribe name=member[subscribe] id=member_submit>Subscribe</button>
 </div>
 </form>
-</section>
+</div>
+</div>
+</div>
+</div>
+</div>
 <p>Curabitur vel ante nisl. Aenean dapibus id tortor eu sagittis. Sed pellentesque dignissim massa, vitae sagittis justo gravida sed. Donec porta pellentesque massa, ultricies lobortis neque lobortis non. Phasellus luctus sodales lorem, posuere ultrices dolor iaculis sit amet. Nunc nulla arcu, varius quis neque quis, elementum aliquet felis. Cras sit amet sapien scelerisque, eleifend odio sit amet, volutpat justo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent venenatis dui at volutpat tincidunt. Duis pretium gravida auctor.</p>
 <p>Curabitur purus elit, convallis a gravida sit amet, viverra non arcu. Integer quis porttitor lorem. Sed gravida malesuada mauris, ac vulputate eros pharetra vitae. Aliquam suscipit elit non tempus posuere. Aliquam elementum eu erat rutrum lacinia. Nunc ultrices viverra tortor, vitae pretium lorem faucibus non. Nunc sit amet mi enim. Sed rhoncus, mi at mollis congue, urna ante accumsan eros, a posuere leo est vitae massa. Morbi volutpat, nulla non luctus placerat, ex enim ultricies dui, et viverra odio nibh in metus. Praesent et sapien tempus, feugiat sem eu, interdum est. Pellentesque in lacus ac nulla volutpat egestas nec eget ante. Aenean ultricies finibus orci ac scelerisque. Proin consectetur rutrum tellus. Quisque eu auctor mauris. Nam vitae diam odio.</p>
 <p>Mauris id dolor magna. Cras mollis scelerisque erat sed tempus. Praesent ullamcorper pulvinar ante sed consectetur. Donec sit amet turpis vulputate, euismod ipsum ac, vestibulum urna. Quisque porttitor tincidunt scelerisque. Nunc at vehicula lacus, a vulputate leo. Nulla pulvinar nunc a sollicitudin blandit. Aenean at nunc nec leo tristique fermentum id sed elit. Proin tincidunt massa eget sodales posuere. Aenean nec laoreet nunc. Praesent dignissim laoreet ultrices. Morbi euismod erat sed elit ornare, quis semper purus vestibulum. Sed aliquet quis augue nec facilisis. Donec rhoncus odio dolor, eget tristique enim facilisis et.</p>
@@ -132,27 +135,29 @@ ad bolte
 </main>
 <footer class="text-center text-white mt-5 footer">
 <div class="container p-4">
+<div class="row d-flex justify-content-center align-items-center rows">
+<div class=col-md-6>
+<div class=car>
+<div class=text-center> <img src=https://i.imgur.com/Dh7U4bp.png width=200> <span class="d-block mt-3">Subscribe to our monthly newsletter in order not to miss new Articles</span>
+<div class=mx-5>
+<form action=https://www.getrevue.co/profile/cswhizz/add_subscriber method=post id=revue-form name=revue-form target=_blank>
+<div class="input-group mb-3 mt-4">
+<input class=form-control placeholder="Enter your email" type=email name=member[email] id=member_email aria-label="Recipient's username" aria-describedby=button-addon2 required>
+<button class="btn btn-success border-rad" type=submit value=Subscribe name=member[subscribe] id=member_submit>Subscribe</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+<br>
 <section class=mb-4>
 <a class="btn btn-outline-light btn-floating m-1" title=Twitter target=_blank href=https://twitter.com/cswhizz2310 role=button><i class="fa fa-twitter"></i></a>
 <a class="btn btn-outline-light btn-floating m-1" title=Hashnode target=_blank href=https://hashnode.com/@csWhizz role=button><b>◇</b></a>
 <a class="btn btn-outline-light btn-floating m-1 px-1" title=Dev.to target=_blank href=https://dev.to/cswhizz role=button><b>DEV</b></a>
 <a class="btn btn-outline-light btn-floating m-1" title=Github target=_blank href=https://github.com/csWhizz role=button><i class="fa fa-github"></i></a>
 </section>
-<div class=row>
-<div class="col-lg-6 mx-auto">
-<form action=https://www.getrevue.co/profile/cswhizz/add_subscriber method=post id=revue-form name=revue-form target=_blank>
-<p>
-<strong>Sign up for our newsletter</strong>
-</p>
-<div class="input-group mb-3">
-<input class="revue-form-field form-control mailfield" placeholder="Your email address..." type=email name=member[email] id=member_email>
-<div class=input-group-append>
-<input class="btn btn-outline-light" type=submit value=Subscribe name=member[subscribe] id=member_submit>
-</div>
-</div>
-</form>
-</div>
-</div>
 </div>
 <div class="text-center p-3" style=background-color:rgba(0,0,0,.2)>
 Copyright © 2022 csWhizz

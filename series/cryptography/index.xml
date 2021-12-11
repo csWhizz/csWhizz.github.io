@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cryptography on csWhizz</title><link>https://cswhizz.github.io/series/cryptography/</link><description>Recent content in Cryptography on csWhizz</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Fri, 26 Nov 2021 19:09:03 +0530</lastBuildDate><atom:link href="https://cswhizz.github.io/series/cryptography/index.xml" rel="self" type="application/rss+xml"/><item><title>How Blockchain Is Made</title><link>https://cswhizz.github.io/post/how-blockchain-is-made/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://cswhizz.github.io/post/how-blockchain-is-made/</guid><description>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac mattis leo. Cras interdum ultricies nulla. Aliquam mollis gravida enim in cursus. Integer maximus, purus nec feugiat tristique, lacus libero interdum ligula, in auctor magna arcu placerat lectus. Maecenas ornare at nunc non volutpat. Fusce ut sapien iaculis, sollicitudin elit placerat, sodales dui. Ut porta mollis nisi, et sagittis lorem tempus vel. In faucibus tortor a lacus mollis, id gravida erat feugiat. Cras et tincidunt sapien, non ornare urna. Pellentesque egestas pulvinar quam. Morbi eu nunc dignissim, posuere massa ut, ullamcorper lacus. Curabitur massa augue, vestibulum sed nibh in, posuere tristique quam. Sed eu nunc eu nulla venenatis scelerisque. In dapibus, elit id consectetur cursus, tellus eros tempor risus, eu lobortis tellus mauris eget elit. In in ipsum urna.&lt;/p>
 ad bolte
 &lt;p>Nulla ornare efficitur ullamcorper. Vestibulum lobortis metus at lacinia ultricies. Nunc accumsan hendrerit lectus eget ultrices. Donec vitae dui ac risus porttitor gravida ac ut leo. Phasellus porta metus non rutrum commodo. Aenean felis purus, aliquet eu libero semper, posuere pharetra risus. Donec id est mi. Integer enim eros, convallis ac mattis sit amet, gravida in eros. Curabitur dignissim, erat quis vestibulum ultricies, ipsum erat imperdiet mi, a porttitor tellus nisi ut enim. Integer augue lacus, mollis nec efficitur id, hendrerit at urna. Etiam congue interdum massa eu venenatis. Nunc sit amet diam ultrices, pharetra velit sit amet, commodo velit. Vestibulum finibus, odio et cursus ultrices, elit metus sollicitudin urna, nec tincidunt lorem lectus id enim.&lt;/p>
-&lt;section class="my-3 p-3">
+&lt;div class="row d-flex justify-content-center align-items-center rows mb-3">
+&lt;div class="col">
+&lt;div class="car">
+&lt;div class="text-center">
+&lt;div class="subscribe-form">
 &lt;form action="https://www.getrevue.co/profile/cswhizz/add_subscriber" method="post" id="revue-form" name="revue-form" target="_blank">
-&lt;p>
-&lt;strong>Sign up for our newsletter&lt;/strong>
-&lt;/p>
-&lt;div class="input-group mb-3">
-&lt;input class="revue-form-field form-control mailfield" placeholder="Your email address..." type="email" name="member[email]" id="member_email">
-&lt;div class="input-group-append">
-&lt;input style="z-index: 0;" class="btn btn-outline-light" type="submit" value="Subscribe" name="member[subscribe]" id="member_submit">
-&lt;/div>
+&lt;div class="input-group mb-3 mt-4">
+&lt;input class="form-control" placeholder="Enter your email" style="z-index: 0;" type="email" name="member[email]" id="member_email" aria-label="Recipient's username" aria-describedby="button-addon2">
+&lt;button class="btn btn-success border-rad" style="z-index: 0;" type="submit" value="Subscribe" name="member[subscribe]" id="member_submit">Subscribe&lt;/button>
 &lt;/div>
 &lt;/form>
-&lt;/section>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
 &lt;p>Curabitur vel ante nisl. Aenean dapibus id tortor eu sagittis. Sed pellentesque dignissim massa, vitae sagittis justo gravida sed. Donec porta pellentesque massa, ultricies lobortis neque lobortis non. Phasellus luctus sodales lorem, posuere ultrices dolor iaculis sit amet. Nunc nulla arcu, varius quis neque quis, elementum aliquet felis. Cras sit amet sapien scelerisque, eleifend odio sit amet, volutpat justo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent venenatis dui at volutpat tincidunt. Duis pretium gravida auctor.&lt;/p>
 &lt;p>Curabitur purus elit, convallis a gravida sit amet, viverra non arcu. Integer quis porttitor lorem. Sed gravida malesuada mauris, ac vulputate eros pharetra vitae. Aliquam suscipit elit non tempus posuere. Aliquam elementum eu erat rutrum lacinia. Nunc ultrices viverra tortor, vitae pretium lorem faucibus non. Nunc sit amet mi enim. Sed rhoncus, mi at mollis congue, urna ante accumsan eros, a posuere leo est vitae massa. Morbi volutpat, nulla non luctus placerat, ex enim ultricies dui, et viverra odio nibh in metus. Praesent et sapien tempus, feugiat sem eu, interdum est. Pellentesque in lacus ac nulla volutpat egestas nec eget ante. Aenean ultricies finibus orci ac scelerisque. Proin consectetur rutrum tellus. Quisque eu auctor mauris. Nam vitae diam odio.&lt;/p>
 &lt;p>Mauris id dolor magna. Cras mollis scelerisque erat sed tempus. Praesent ullamcorper pulvinar ante sed consectetur. Donec sit amet turpis vulputate, euismod ipsum ac, vestibulum urna. Quisque porttitor tincidunt scelerisque. Nunc at vehicula lacus, a vulputate leo. Nulla pulvinar nunc a sollicitudin blandit. Aenean at nunc nec leo tristique fermentum id sed elit. Proin tincidunt massa eget sodales posuere. Aenean nec laoreet nunc. Praesent dignissim laoreet ultrices. Morbi euismod erat sed elit ornare, quis semper purus vestibulum. Sed aliquet quis augue nec facilisis. Donec rhoncus odio dolor, eget tristique enim facilisis et.&lt;/p>
