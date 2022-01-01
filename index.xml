@@ -87,80 +87,22 @@
 &lt;li>The Basics of Web Hacking: Tools and Techniques to Attack the Web&lt;/li>
 &lt;/ol>
 &lt;h2 id="online-learning-platforms-to-sharpen-your-skills">Online learning Platforms to Sharpen Your Skills&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Name&lt;/th>
-&lt;th>Description&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;a href="https://ctf.hacker101.com/">CTF Hacker101&lt;/a>&lt;/td>
-&lt;td>The Hacker101 CTF is a game designed to let you learn to hack in a safe, rewarding environment. Hacker101 is a free educational site for hackers.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;a href="https://www.hackthebox.eu">Hack The Box :: Penetration Testing Labs&lt;/a>&lt;/td>
-&lt;td>An online platform to test and advance your skills in penetration testing and cyber security. Join today and start training in our online labs.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;a href="https://tryhackme.com">TryHackMe&lt;/a>&lt;/td>
-&lt;td>TryHackMe is an online platform that teaches cyber security through short, gamified real-world labs.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;a href="https://ctf365.com/">CTF365&lt;/a>&lt;/td>
-&lt;td>An account based ctf site, awarded by Kaspersky, MIT, T-Mobile.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;a href="https://backdoor.sdslabs.co">Backdoor&lt;/a>&lt;/td>
-&lt;td>Pen testing labs that have a space for beginners, a practice arena and various competitions, account required.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;a href="https://hack.me/">Hack.me&lt;/a>&lt;/td>
-&lt;td>Lets you build/host/attack vulnerable web apps.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;a href="https://ctflearn.com/">CTFLearn&lt;/a>&lt;/td>
-&lt;td>An account-based ctf site, where users can go in and solve a range of challenges.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;a href="https://www.owasp.org/index.php/OWASP_Vulnerable_Web_Applications_Directory_Project#tab=On-Line_apps">OWASP Vulnerable Web Applications Directory Project (Online)&lt;/a>&lt;/td>
-&lt;td>List of online available vulnerable applications for learning purposes.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;a href="https://lab.pentestit.ru">Pentestit labs&lt;/a>&lt;/td>
-&lt;td>Hands-on Pentesting Labs (OSCP style)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;a href="https://www.root-me.org">Root-me.org&lt;/a>&lt;/td>
-&lt;td>Hundreds of challenges are available to train yourself in different and not simulated environments&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;a href="https://www.vulnhub.com">Vulnhub.com&lt;/a>&lt;/td>
-&lt;td>Vulnerable By Design VMs for practical &amp;lsquo;hands-on&amp;rsquo; experience in digital security&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;a href="https://github.com/sagishahar/lpeworkshop">Windows / Linux Local Privilege Escalation Workshop&lt;/a>&lt;/td>
-&lt;td>Practice your Linux and Windows privilege escalation.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;a href="http://www.hackingarticles.in/ctf-challenges1/">Hacking Articles&lt;/a>&lt;/td>
-&lt;td>CTF Breif Write up collection with a lot of screenshots good for beggainers.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;a href="http://www.rafayhackingarticles.net/">Rafay Hacking Articles, a great blog&lt;/a>&lt;/td>
-&lt;td>Write up collections by Rafay Baloch.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;a href="https://pentesterlab.com/">PentesterLab&lt;/a>&lt;/td>
-&lt;td>20$ signature, complete content basic to write exploits, web, android.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;a href="https://cybersecurity.wtf/">CyberSec WTF&lt;/a>&lt;/td>
-&lt;td>Emulated web pentesting challenges from bounty write-ups&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
+&lt;p>&lt;a href="https://ctf.hacker101.com/">CTF Hacker101&lt;/a> - The Hacker101 CTF is a game designed to let you learn to hack in a safe, rewarding environment. Hacker101 is a free educational site for hackers.
+&lt;a href="https://www.hackthebox.eu">Hack The Box :: Penetration Testing Labs&lt;/a> - An online platform to test and advance your skills in penetration testing and cyber security. Join today and start training in our online labs.
+&lt;a href="https://tryhackme.com">TryHackMe&lt;/a> - TryHackMe is an online platform that teaches cyber security through short, gamified real-world labs.
+&lt;a href="https://ctf365.com/">CTF365&lt;/a> - An account based ctf site, awarded by Kaspersky, MIT, T-Mobile.
+&lt;a href="https://backdoor.sdslabs.co">Backdoor&lt;/a> - Pen testing labs that have a space for beginners, a practice arena and various competitions, account required.
+&lt;a href="https://hack.me/">Hack.me&lt;/a> - Lets you build/host/attack vulnerable web apps.
+&lt;a href="https://ctflearn.com/">CTFLearn&lt;/a> - An account-based ctf site, where users can go in and solve a range of challenges.
+&lt;a href="https://www.owasp.org/index.php/OWASP_Vulnerable_Web_Applications_Directory_Project#tab=On-Line_apps">OWASP Vulnerable Web Applications Directory Project (Online)&lt;/a> - List of online available vulnerable applications for learning purposes.
+&lt;a href="https://lab.pentestit.ru">Pentestit labs&lt;/a> - Hands-on Pentesting Labs (OSCP style)
+&lt;a href="https://www.root-me.org">Root-me.org&lt;/a> - Hundreds of challenges are available to train yourself in different and not simulated environments
+&lt;a href="https://www.vulnhub.com">Vulnhub.com&lt;/a> - Vulnerable By Design VMs for practical &amp;lsquo;hands-on&amp;rsquo; experience in digital security
+&lt;a href="https://github.com/sagishahar/lpeworkshop">Windows / Linux Local Privilege Escalation Workshop&lt;/a> - Practice your Linux and Windows privilege escalation.
+&lt;a href="http://www.hackingarticles.in/ctf-challenges1/">Hacking Articles&lt;/a> - CTF Breif Write up collection with a lot of screenshots good for beggainers.
+&lt;a href="http://www.rafayhackingarticles.net/">Rafay Hacking Articles, a great blog&lt;/a> - Write up collections by Rafay Baloch.
+&lt;a href="https://pentesterlab.com/">PentesterLab&lt;/a> - 20$ signature, complete content basic to write exploits, web, android.
+&lt;a href="https://cybersecurity.wtf/">CyberSec WTF&lt;/a>- Emulated web pentesting challenges from bounty write-ups&lt;/p>
 &lt;h2 id="off-line-learning-platforms-to-sharpen-your-skills">Off-Line learning Platforms to Sharpen Your Skills&lt;/h2>
 &lt;table>
 &lt;thead>
