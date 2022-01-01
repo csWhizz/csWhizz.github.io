@@ -28,6 +28,23 @@
 &lt;li>&lt;a href="https://medium.com/@cramforce/designing-even-larger-applications-460ee029012d">Designing Even Larger Applications&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://thenewstack.io/cell-based-architecture-a-new-decentralized-approach-for-cloud-native-patterns/">Cell-Based Architecture: A New Decentralized Approach for Cloud Native Patterns&lt;/a>&lt;/li>
 &lt;/ul>
+&lt;div class="row d-flex justify-content-center align-items-center rows mb-3">
+&lt;div class="col inarticlesubscribe rounded">
+&lt;div>
+&lt;div class="text-center">
+&lt;div>
+&lt;form action="https://www.getrevue.co/profile/cswhizz/add_subscriber" method="post" id="revue-form" name="revue-form" target="_blank">&lt;br>
+&lt;small>Subscribe to our newsletter&lt;/small>
+&lt;div class="input-group mb-3 mt-4">
+&lt;input class="form-control subscribe-text-input" placeholder="Enter your email" style="z-index: 0;" type="email" name="member[email]" id="member_email" aria-label="Recipient's username" aria-describedby="button-addon2" required>
+&lt;button class="btn btn-subscribe border-rad" style="z-index: 0;" type="submit" value="Subscribe" name="member[subscribe]" id="member_submit">Subscribe&lt;/button>
+&lt;/div>
+&lt;/form>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
 &lt;h2 id="curiosities">Curiosities&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/dwmkerr/hacker-laws/blob/master/README.md">Hacker-laws: Laws, Theories, Principles and Patterns that developers will find useful&lt;/a>&lt;/li>
