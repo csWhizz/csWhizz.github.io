@@ -1,46 +1,213 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Month on csWhizz</title><link>https://cswhizz.github.io/month/</link><description>Recent content in Month on csWhizz</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Fri, 24 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://cswhizz.github.io/month/index.xml" rel="self" type="application/rss+xml"/><item><title>Test Last in 2021</title><link>https://cswhizz.github.io/post/test-last-in-2021/</link><pubDate>Fri, 24 Dec 2021 00:00:00 +0000</pubDate><guid>https://cswhizz.github.io/post/test-last-in-2021/</guid><description>&lt;h1 id="heading-1-bolte">heading 1 bolte&lt;/h1>
-&lt;p>The standard Lorem Ipsum passage, used since the 1500s
-&amp;ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&amp;rdquo;&lt;/p>
-ad bolte
-&lt;p>Section 1.10.32 of &amp;ldquo;de Finibus Bonorum et Malorum&amp;rdquo;, written by Cicero in 45 BC
-&amp;ldquo;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?&amp;rdquo;&lt;/p>
-&lt;div class="row d-flex justify-content-center align-items-center rows mb-3">
-&lt;div class="col inarticlesubscribe rounded">
-&lt;div>
-&lt;div class="text-center">
-&lt;div>
-&lt;form action="https://www.getrevue.co/profile/cswhizz/add_subscriber" method="post" id="revue-form" name="revue-form" target="_blank">&lt;br>
-&lt;small>Subscribe to our newsletter&lt;/small>
-&lt;div class="input-group mb-3 mt-4">
-&lt;input class="form-control subscribe-text-input" placeholder="Enter your email" style="z-index: 0;" type="email" name="member[email]" id="member_email" aria-label="Recipient's username" aria-describedby="button-addon2" required>
-&lt;button class="btn btn-subscribe border-rad" style="z-index: 0;" type="submit" value="Subscribe" name="member[subscribe]" id="member_submit">Subscribe&lt;/button>
-&lt;/div>
-&lt;/form>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;p>1914 translation by H. Rackham
-&amp;ldquo;But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?&amp;rdquo;&lt;/p>
-&lt;p>Section 1.10.33 of &amp;ldquo;de Finibus Bonorum et Malorum&amp;rdquo;, written by Cicero in 45 BC
-&amp;ldquo;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.&amp;rdquo;&lt;/p>
-&lt;div class="row d-flex justify-content-center align-items-center rows mb-3">
-&lt;div class="col inarticlesubscribe rounded">
-&lt;div>
-&lt;div class="text-center">
-&lt;div>
-&lt;form action="https://www.getrevue.co/profile/cswhizz/add_subscriber" method="post" id="revue-form" name="revue-form" target="_blank">&lt;br>
-&lt;small>Subscribe to our newsletter&lt;/small>
-&lt;div class="input-group mb-3 mt-4">
-&lt;input class="form-control subscribe-text-input" placeholder="Enter your email" style="z-index: 0;" type="email" name="member[email]" id="member_email" aria-label="Recipient's username" aria-describedby="button-addon2" required>
-&lt;button class="btn btn-subscribe border-rad" style="z-index: 0;" type="submit" value="Subscribe" name="member[subscribe]" id="member_submit">Subscribe&lt;/button>
-&lt;/div>
-&lt;/form>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;p>1914 translation by H. Rackham
-&amp;ldquo;On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.&amp;rdquo;&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Month on csWhizz</title><link>https://cswhizz.github.io/month/</link><description>Recent content in Month on csWhizz</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://cswhizz.github.io/month/index.xml" rel="self" type="application/rss+xml"/><item><title>Computer Engineering And Ethical Hacking Resources</title><link>https://cswhizz.github.io/post/computer-engineering-and-ethical-hacking-resources/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>https://cswhizz.github.io/post/computer-engineering-and-ethical-hacking-resources/</guid><description>&lt;p>A curated catalogue of GitHub repositories containing books, and other resources for computer engineering students.&lt;/p>
+&lt;h2 id="interview-resources">Interview Resources&lt;/h2>
+&lt;p>&lt;a href="https://github.com/davidhampgonsalves/interview-resources/blob/master/README.md">davidhampgonsalves/interview-resources&lt;/a> - Long list of resources for preparing for technical computer engineering interviews.&lt;/p>
+&lt;h2 id="awesome-youtube-channels">Awesome YouTube Channels&lt;/h2>
+&lt;p>&lt;a href="https://github.com/benthecoder/yt-channels-DS-AI-ML-CS">benthecoder/yt-channels-DS-AI-ML-CS&lt;/a> - A comprehensive list of +180 YouTube Channels (in no particular order) for Data Science, Data Engineering, Machine Learning, Deep Learning, Artificial Intelligence, Computer Science, programming, software engineering, and more!&lt;/p>
+&lt;h2 id="articles-from-the-web">Articles from the Web&lt;/h2>
+&lt;h4 id="good-practices">Good practices&lt;/h4>
+&lt;ul>
+&lt;li>&lt;a href="https://8thlight.com/blog/alexandru-codreanu/dario-garcia/lucas-giudice/2015/10/30/caring-coding.html">Caring about coding&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.joelonsoftware.com/2006/08/01/can-your-programming-language-do-this/">Code Reusability and Functional Programming&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.wearemobilefirst.com/blog/healthy-coding-practices">Healthy Coding Practices&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://medium.com/@biratkirat/step-8-the-boy-scout-rule-robert-c-martin-uncle-bob-9ac839778385">The Boy Scout Rule in Coding&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://mastery.games/post/solve-it-once/">Solve It Once&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h4 id="software-design-principles-patterns-and-arquitectures">Software Design, Principles, Patterns and Arquitectures&lt;/h4>
+&lt;ul>
+&lt;li>&lt;a href="https://www.wearemobilefirst.com/blog/atomic-design">Atomic Design: Getting Started&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://mishadoff.com/blog/clojure-design-patterns/">Clojure Design Patterns&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together/">DDD, Hexagonal, Onion, Clean, CQRS, … How I put it all together&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.jacobsdata.com/2020/02/19/a-brief-intro-to-clean-architecture-clean-ddd-and-cqrs">A Brief Intro to Clean Architecture, Clean DDD, and CQRS&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898">The S.O.L.I.D Principles in Pictures&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.microsoft.com/en-us/azure/architecture/patterns/category/resiliency">Resiliency Patterns&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://web.archive.org/web/20110714224545/http://www.objectmentor.com/resources/articles/isp.pdf">The Interface Segregation Principle&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h4 id="system-architectures">System Architectures&lt;/h4>
+&lt;ul>
+&lt;li>&lt;a href="https://microservices.io/patterns/data/saga.html">Saga pattern for microservices&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://medium.com/@cramforce/designing-even-larger-applications-460ee029012d">Designing Even Larger Applications&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://thenewstack.io/cell-based-architecture-a-new-decentralized-approach-for-cloud-native-patterns/">Cell-Based Architecture: A New Decentralized Approach for Cloud Native Patterns&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="curiosities">Curiosities&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/dwmkerr/hacker-laws/blob/master/README.md">Hacker-laws: Laws, Theories, Principles and Patterns that developers will find useful&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="free-learning-platforms-or-resources">Free learning platforms or resources&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.freecodecamp.org/">Free Code Camp&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.maketecheasier.com/games-learn-css/">Learn CSS by playing&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://d2l.ai/index.html">Dive into Deep Learning&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.twitch.tv/aws">AWS Twitch account&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://web.dev/learn/">Learn building for the modern web&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://30secondsofknowledge.com/">30 seconds of knowledge extension&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/danistefanovic/build-your-own-x">Build Your Own X&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/EbookFoundation/free-programming-books">Free Programming Books&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/ohmyzsh/ohmyzsh">Oh My Zsh&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/jwasham/coding-interview-university">Coding Interview University&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/github/gitignore">Gitignore templates&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/donnemartin/system-design-primer">System Design Primer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/public-apis/public-apis">Public APIs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/jlevy/the-art-of-command-line">The Art of Command Line&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/trekhleb/javascript-algorithms">JavaScript Algorithms and Data Structures&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/kamranahmedse/developer-roadmap">Developer Roadmap&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="coding-challenge-platforms">Coding challenge platforms&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.codewars.com">Codewars&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.codingame.com">CodinGame&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.hackerrank.com">HackerRank&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://leetcode.com">LeetCode&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.interviewcake.com/">InterviewCake&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.coderbyte.com/">Coderbyte&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://codefights.com/">CodeFights&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.topcoder.com/">TopCoder&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.codechef.com/">CodeChef&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.geeksforgeeks.org/">Geeksforgeeks&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="books">Books&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/EbookFoundation/free-programming-books">Free Programming Books&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.packtpub.com/free-learning">Packtpub daily free book&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://landing.google.com/sre/books/">Google Site Reliability Engineering&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/hmemcpy/milewski-ctfp-pdf/">Category Theory for Programmers&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="awesome-resources-for-learning-ethical-hacking--pentesting">Awesome Resources For Learning Ethical Hacking &amp;amp; Pentesting&lt;/h2>
+&lt;p>A collection of some best resources about Hacking &amp;amp; Penetration Testing to make you learn faster! Let&amp;rsquo;s make it the best resource repository for our community.&lt;/p>
+&lt;h2 id="books-1">Books&lt;/h2>
+&lt;ol>
+&lt;li>The Hacker Playbook 2: Practical Guide To Penetration Testing&lt;/li>
+&lt;li>The Basics of Hacking and Penetration Testing, Second Edition: Ethical Hacking and Penetration Testing Made Easy&lt;/li>
+&lt;li>Breaking into Information Security: Learning the Ropes 101&lt;/li>
+&lt;li>Penetration Testing: A Hands-On Introduction to Hacking&lt;/li>
+&lt;li>Social Engineering: The Art of Human Hacking&lt;/li>
+&lt;li>Hacking: The Art of Exploitation, 2nd Edition&lt;/li>
+&lt;li>Web Hacking 101&lt;/li>
+&lt;li>OWASP Testing Guide (A must read for web application developers and penetration testers)&lt;/li>
+&lt;li>The Web Application Hacker&amp;rsquo;s Handbook: Finding and Exploiting Security Flaws&lt;/li>
+&lt;li>The Basics of Web Hacking: Tools and Techniques to Attack the Web&lt;/li>
+&lt;/ol>
+&lt;h2 id="online-learning-platforms-to-sharpen-your-skills">Online learning Platforms to Sharpen Your Skills&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="https://ctf.hacker101.com/">CTF Hacker101&lt;/a>&lt;/td>
+&lt;td>The Hacker101 CTF is a game designed to let you learn to hack in a safe, rewarding environment. Hacker101 is a free educational site for hackers.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://www.hackthebox.eu">Hack The Box :: Penetration Testing Labs&lt;/a>&lt;/td>
+&lt;td>An online platform to test and advance your skills in penetration testing and cyber security. Join today and start training in our online labs.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://tryhackme.com">TryHackMe&lt;/a>&lt;/td>
+&lt;td>TryHackMe is an online platform that teaches cyber security through short, gamified real-world labs.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://ctf365.com/">CTF365&lt;/a>&lt;/td>
+&lt;td>An account based ctf site, awarded by Kaspersky, MIT, T-Mobile.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://backdoor.sdslabs.co">Backdoor&lt;/a>&lt;/td>
+&lt;td>Pen testing labs that have a space for beginners, a practice arena and various competitions, account required.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://hack.me/">Hack.me&lt;/a>&lt;/td>
+&lt;td>Lets you build/host/attack vulnerable web apps.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://ctflearn.com/">CTFLearn&lt;/a>&lt;/td>
+&lt;td>An account-based ctf site, where users can go in and solve a range of challenges.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://www.owasp.org/index.php/OWASP_Vulnerable_Web_Applications_Directory_Project#tab=On-Line_apps">OWASP Vulnerable Web Applications Directory Project (Online)&lt;/a>&lt;/td>
+&lt;td>List of online available vulnerable applications for learning purposes.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://lab.pentestit.ru">Pentestit labs&lt;/a>&lt;/td>
+&lt;td>Hands-on Pentesting Labs (OSCP style)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://www.root-me.org">Root-me.org&lt;/a>&lt;/td>
+&lt;td>Hundreds of challenges are available to train yourself in different and not simulated environments&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://www.vulnhub.com">Vulnhub.com&lt;/a>&lt;/td>
+&lt;td>Vulnerable By Design VMs for practical &amp;lsquo;hands-on&amp;rsquo; experience in digital security&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/sagishahar/lpeworkshop">Windows / Linux Local Privilege Escalation Workshop&lt;/a>&lt;/td>
+&lt;td>Practice your Linux and Windows privilege escalation.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="http://www.hackingarticles.in/ctf-challenges1/">Hacking Articles&lt;/a>&lt;/td>
+&lt;td>CTF Breif Write up collection with a lot of screenshots good for beggainers.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="http://www.rafayhackingarticles.net/">Rafay Hacking Articles, a great blog&lt;/a>&lt;/td>
+&lt;td>Write up collections by Rafay Baloch.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://pentesterlab.com/">PentesterLab&lt;/a>&lt;/td>
+&lt;td>20$ signature, complete content basic to write exploits, web, android.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://cybersecurity.wtf/">CyberSec WTF&lt;/a>&lt;/td>
+&lt;td>Emulated web pentesting challenges from bounty write-ups&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="off-line-learning-platforms-to-sharpen-your-skills">Off-Line learning Platforms to Sharpen Your Skills&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/davevs/dvxte">Damn Vulnerable Xebia Training Environment&lt;/a>&lt;/td>
+&lt;td>Docker Container including several vurnerable web applications (DVWA,DVWServices, DVWSockets, WebGoat, Juiceshop, Railsgoat, django.NV, Buggy Bank, Mutilidae II and more)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://www.owasp.org/index.php/OWASP_Vulnerable_Web_Applications_Directory_Project#tab=Off-Line_apps">OWASP Vulnerable Web Applications Directory Project (Offline)&lt;/a>&lt;/td>
+&lt;td>List of offline available vulnerable applications for learning purposes.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="linux-penetration-testing-os">Linux Penetration Testing OS&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="http://kali.org/">Kali&lt;/a>&lt;/td>
+&lt;td>the infamous pentesting distro from the folks at Offensive Security&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://www.parrotsec.org/">Parrot &lt;/a>&lt;/td>
+&lt;td>Debian includes full portable lab for security, DFIR, and development&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://androidtamer.com//">Android Tamer&lt;/a>&lt;/td>
+&lt;td>Android Tamer is a Virtual / Live Platform for Android Security professionals.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://blackarch.org/index.html">BlackArch&lt;/a>&lt;/td>
+&lt;td>Arch Linux based pentesting distro, compatible with Arch installs&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://lionsec-linux.org/">LionSec Linux&lt;/a>&lt;/td>
+&lt;td>pentesting OS based on Ubuntu&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item></channel></rss>
